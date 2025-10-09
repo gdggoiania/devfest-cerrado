@@ -1,0 +1,102 @@
+.OlderEvenstsSection {
+  background: var(--white);
+}
+
+.Description {
+  padding-right: 100px;
+  text-align: justify;
+  margin-top: 60px;
+  color: var(--gray);
+}
+
+.DescriptionTitle {
+  color: var(--gray);
+}
+
+@media only screen and (max-width: 1026px) {
+  .Description {
+    padding: 10px;
+    color: var(--gray);
+  }
+  .DescriptionTitle {
+    color: var(--gray);
+  }
+}
+
+.VideoContainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.VideoContainer iframe,
+.VideoContainer object,
+.VideoContainer embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.MarqueeOuter {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+
+.MarqueeInner {
+  animation-name: marquee;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+  z-index: 0;
+  background-color: var(--black);
+}
+
+@keyframes marquee {
+  0% {
+    left: -30%;
+  }
+
+  50% {
+    left: -5%;
+  }
+
+  100% {
+    left: -30%;
+  }
+}
+
+.ConstructItems {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.ConstructItem {
+  padding: 0px 10px;
+  white-space: nowrap;
+}
+
+.ConstructItem:nth-child(3n-1) {
+  background-color: var(--black);
+}
+.ConstructItem:nth-child(3n + 0) {
+  background-color: var(--black);
+}
+.ConstructItem:nth-child(3n + 1) {
+  background-color: var(--black);
+}
+.ConstructItem:nth-child(3n + 2) {
+  background-color: var(--black);
+}
+.ConstructItem:nth-child(3n + 3) {
+  background-color: var(--black);
+}
+.ConstructItem:nth-child(3n + 4) {
+  background-color: var(--black);
+}

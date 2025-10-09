@@ -1,0 +1,111 @@
+.Container {
+  /* margin-bottom: 60px; */
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("/fotoEncontroDevfest2023.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.TextContainer {
+  width: 75%;
+  padding: 15px;
+  text-align: justify;
+  text-align-last: center;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: clamp(0.75rem, 0.5828rem + 0.7643vw, 1.5rem);
+  background-color: rgba(0, 0, 0, 0.9);
+  opacity: 0.8;
+  color: var(--white);
+  transition: all 0.5s ease-in-out;
+  border-radius: 20px;
+}
+
+.TextContainer:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .TextContainer {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .TextContainer:hover {
+    transform: none;
+  }
+}
+
+.Title::after {
+  background: linear-gradient(
+    90deg,
+    var(--blue),
+    var(--green) 10%,
+    var(--yellow) 30%,
+    var(--red) 40%,
+    var(--halftoneBlue) 70%,
+    var(--halftoneGreen)
+  );
+  content: "";
+  display: flex;
+  height: 0.15rem;
+  margin: 0 auto;
+  margin-top: 0.45rem;
+  width: 50%;
+}
+
+.VideoContainer {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.VideoContainer iframe,
+.VideoContainer object,
+.VideoContainer embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.shining {
+  background-color: var(--black);
+  padding: 20px;
+}
+
+.shiningText {
+  font-size: clamp(2rem, 0.7rem, 0.625rem);
+  text-align: center;
+  user-select: none;
+  background: linear-gradient(90deg, var(--black), var(--white), var(--black));
+  letter-spacing: 1.375rem;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+  position: relative;
+}
+
+/* .delayedText {
+    animation-delay: 2.5s;
+  } */
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}

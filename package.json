@@ -1,0 +1,44 @@
+{
+  "name": "lathrop",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export",
+    "copy_root": "cp out/index.html functions/",
+    "deploy": "firebase deploy --only hosting",
+    "deploy:functions": "firebase deploy --only functions",
+    "build_export": "npm run build && npm run export && npm run copy_root",
+    "deploy_staging": "npm run build_export && firebase use default && npm run deploy",
+    "deploy_staging:functions": "firebase use default && npm run deploy:functions",
+    "deploy_prod": "npm run build_export && firebase use production && npm run deploy",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@firebase/database-types": "1.0.7",
+    "@fortawesome/fontawesome-svg-core": "6.6.0",
+    "@fortawesome/free-brands-svg-icons": "6.6.0",
+    "@fortawesome/free-solid-svg-icons": "6.6.0",
+    "@fortawesome/react-fontawesome": "0.2.2",
+    "@vercel/analytics": "1.4.0",
+    "firebase": "11.0.2",
+    "firebase-admin": "13.0.0",
+    "next": "^15.5.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "reactstrap": "9.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "22.9.0",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "eslint": "^9.37.0",
+    "eslint-config-next": "15.0.3",
+    "typescript": "5.6.3"
+  },
+  "engines": {
+    "npm": ">= 8"
+  }
+}

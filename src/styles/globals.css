@@ -1,0 +1,103 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
+
+:root {
+  --blue: #4285f4;
+  --green: #34a853;
+  --yellow: #f9ab00;
+  --red: #ea4335;
+
+  --halftoneBlue: #57caff;
+  --halftoneGreen: #5cdb6d;
+  --halftoneYellow: #ffd427;
+  --halftoneRed: #ff7daf;
+
+  --pastelBlue: #c3ecf6;
+  --pastelGreen: #ccf6c5;
+  --pastelYellow: #ffe7a5;
+  --pastelRed: #f8d8d8;
+
+  --yellowVariant: #ffba00;
+
+  --white: #f0f0f0;
+  --black: #1e1e1e;
+
+  --gray: #5f6368;
+  --light-gray: #eeeeee;
+
+  --bs-body-bg-gray: #f1f3f4;
+  --bs-body-bg: #000000;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter var", sans-serif;
+  background: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#__next {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.absolute-position {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* This is only for the modal of reactstrap */
+body.modal-open {
+  overflow: auto !important;
+  padding-right: 0 !important;
+}
+/* This is only for the modal of reactstrap */
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .hideSmall {
+    display: none;
+  }
+}

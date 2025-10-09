@@ -1,0 +1,21 @@
+.Title {
+  text-align: center;
+}
+
+.Title::after {
+  background: linear-gradient(
+    90deg,
+    var(--blue),
+    var(--green) 10%,
+    var(--yellow) 30%,
+    var(--red) 40%,
+    var(--halftoneBlue) 70%,
+    var(--halftoneGreen)
+  );
+  content: "";
+  display: flex;
+  height: 0.15rem;
+  margin: 0 auto;
+  margin-top: 0.45rem;
+  width: 30%;
+}
