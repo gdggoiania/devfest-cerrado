@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import Head from "next/head";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Footer from "../components/footers/footer";
 import configValues from "helpers/config";
 import { Navbar } from "components/navbar/navbar";
@@ -23,6 +24,7 @@ const BaseLayout: React.FC<BaseLayout> = ({ children }) => {
       <main className="absolute-position">
         <Navbar />
         <div>{children}</div>
+         <SpeedInsights />
         <Footer />
       </main>
     </>
