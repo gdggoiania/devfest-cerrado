@@ -62,7 +62,7 @@ const TicketsSection: React.FC = ({}) => {
               {ticketList.map(mapTicketsBatch)}
             </ul>
           </Row>
-          <Row>
+          {/* <Row>
             <span className={styles.TicketsDisclaimer}>
               ** Temos condições especiais para caravanas e grupos de empresas a
               cada 5 pessoas. Para saber mais envie um email para
@@ -84,7 +84,7 @@ const TicketsSection: React.FC = ({}) => {
                 transferência.
               </p>
             </details>
-          </Row>
+          </Row> */}
         </div>
       </div>
     </Container>
