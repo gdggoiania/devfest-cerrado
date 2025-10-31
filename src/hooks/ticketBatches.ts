@@ -4,8 +4,8 @@ import configValues from "helpers/config";
 const ticketBatches: Array<TicketBatch> = [
   new TicketBatch({
     description: "Entrada + Kit + Camiseta",
-    firstSaleDate: new Date("2025-09-01"),
-    finalSaleDate: new Date("2025-09-30"),
+    firstSaleDate: new Date("2025-10-04"),
+    finalSaleDate: new Date("2025-11-09"),
     title: "Promocional",
     link: configValues.eventLinkRegistrationUrl,
     value: 85,
@@ -13,8 +13,8 @@ const ticketBatches: Array<TicketBatch> = [
   }),
   new TicketBatch({
     description: "Entrada + Kit + Camiseta",
-    firstSaleDate: new Date("2025-09-30"),
-    finalSaleDate: new Date("2025-10-31"),
+    firstSaleDate: new Date("2025-10-05"),
+    finalSaleDate: new Date("2025-11-06"),
     title: "1º Lote ",
     link: configValues.eventLinkRegistrationUrl,
     value: 135,
@@ -22,8 +22,8 @@ const ticketBatches: Array<TicketBatch> = [
   }),
   new TicketBatch({
     description: "Entrada + Kit ",
-    firstSaleDate: new Date("2025-09-30"),
-    finalSaleDate: new Date("2025-10-31"),
+    firstSaleDate: new Date("2025-10-05"),
+    finalSaleDate: new Date("2025-11-16"),
     title: "1º Lote",
     link: configValues.eventLinkRegistrationUrl,
     value: 100,
