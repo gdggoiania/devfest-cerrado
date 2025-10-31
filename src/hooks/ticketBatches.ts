@@ -21,7 +21,7 @@ const ticketBatches: Array<TicketBatch> = [
     tShirt: true,
   }),
   new TicketBatch({
-    description: "Entrada + Kit ",
+    description: "Entrada + Kit",
     firstSaleDate: new Date("2025-10-05"),
     finalSaleDate: new Date("2025-11-16"),
     title: "1º Lote",
