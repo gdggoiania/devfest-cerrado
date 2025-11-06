@@ -1,24 +1,24 @@
 const sponsors = {
   superior: {
-    name: "",
+    name: "Master",
     items: [
       {
         name: "Google Developers",
-        logo: "/googleDevelopers.png",
+        logo: "/patrocinio/googleDevelopers.png",
         url: "https://developers.google.com",
       },
     ],
   },
-  // diamond: {
-  //   name: "Patrocinador Diamante",
-  //   items: [
-  //     {
-  //       name: "Globo",
-  //       logo: "/patrocinio/globo.png",
-  //       url: "https://globo.gupy.io/",
-  //     },
-  //   ],
-  // },
+  diamond: {
+    name: "Diamante",
+    items: [
+      {
+        name: "Sebrae Startups",
+        logo: "/patrocinio/sebraeStartups.svg",
+        url: "https://programas.sebraestartups.com.br/",
+      },
+    ],
+  },
   // golden: {
   //   name: "Patrocinadores Prata",
   //   items: [
@@ -55,56 +55,56 @@ const sponsors = {
   //     },
   //   ],
   // },
-  // silver: {
-  //   name: "Apoiadores",
-  //   items: [
-  //     {
-  //       name: "Google Experts",
-  //       logo: "/apoio/googleExperts.png",
-  //       url: "https://developers.google.com/community/experts?hl=pt-br",
-  //     },
-  //     {
-  //       name: "Black Stars",
-  //       logo: "/apoio/blackStars.png",
-  //       url: "https://blackstarsbr.com/",
-  //     },
-  //     {
-  //       name: "GDG Santos",
-  //       logo: "/apoio/gdgSantos.png",
-  //       url: "https://gdg.community.dev/gdg-santos/",
-  //     },
-  //     {
-  //       name: "Hub Goiás",
-  //       logo: "/apoio/hubGoias.png",
-  //       url: "https://hubgoias.org/",
-  //     },
-  //     {
-  //       name: "Vivo",
-  //       logo: "/apoio/vivo.png",
-  //       url: "https://vivo.com.br/para-voce",
-  //     },
-  //     {
-  //       name: "Nexo",
-  //       logo: "/apoio/nexoSolution.png",
-  //       url: "https://www.nexosolution.com.br/",
-  //     },
-  //   ],
-  // },
-  // bronze: {
-  //   name: "Instituições parceiras",
-  //   items: [
-  //     {
-  //       name: "FAJE",
-  //       logo: "/parceiros/faje.png",
-  //       url: "https://fajegoias.com.br/",
-  //     },
-  //     {
-  //       name: "ANETI",
-  //       logo: "/parceiros/aneti.png",
-  //       url: "https://aneti.org.br/",
-  //     },
-  //   ],
-  // },
+  silver: {
+    name: "Prata",
+    items: [
+      {
+        name: "Cilia",
+        logo: "/patrocinio/cilia.png",
+        url: "https://cilia.com.br/",
+      },
+      {
+        name: "Alura/FIAP",
+        logo: "/patrocinio/alura.webp",
+        url: "https://www.fiap.com.br/fiap-alura/",
+      },
+      // {
+      //   name: "GDG Santos",
+      //   logo: "/apoio/gdgSantos.png",
+      //   url: "https://gdg.community.dev/gdg-santos/",
+      // },
+      // {
+      //   name: "Hub Goiás",
+      //   logo: "/apoio/hubGoias.png",
+      //   url: "https://hubgoias.org/",
+      // },
+      // {
+      //   name: "Vivo",
+      //   logo: "/apoio/vivo.png",
+      //   url: "https://vivo.com.br/para-voce",
+      // },
+      // {
+      //   name: "Nexo",
+      //   logo: "/apoio/nexoSolution.png",
+      //   url: "https://www.nexosolution.com.br/",
+      // },
+    ],
+  },
+  bronze: {
+    name: "Bronze",
+    items: [
+      {
+        name: "Aliare",
+        logo: "/patrocinio/aliare.png",
+        url: "https://www.aliare.co/",
+      },
+      {
+        name: "International",
+        logo: "/patrocinio/intertech.webp",
+        url: "https://www.linkedin.com/company/international-escola-de-idiomas/?originalSubdomain=br",
+      },
+    ],
+  },
   // ruby: {
   //   name: "Comunidades parceiras",
   //   items: [
@@ -207,16 +207,16 @@ const sponsors = {
   //     },
   //   ],
   // },
-  // support: {
-  //   name: "Empresas que investem em seus colaboradores",
-  //   items: [
-  //     {
-  //       name: "TV Anhanguera",
-  //       logo: "/parceiros/tvAnhaguera.png",
-  //       url: "https://redeglobo.globo.com/tvanhanguera/",
-  //     },
-  //   ],
-  // },
+  support: {
+    name: "Apoio",
+    items: [
+      {
+        name: "Hub Goiás",
+        logo: "/patrocinio/hub.png",
+        url: "https://hubgoias.org/",
+      },
+    ],
+  },
 };
 
 export default sponsors;

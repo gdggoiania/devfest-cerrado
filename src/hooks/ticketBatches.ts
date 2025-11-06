@@ -5,7 +5,7 @@ const ticketBatches: Array<TicketBatch> = [
   new TicketBatch({
     description: "Entrada + Kit + Camiseta",
     firstSaleDate: new Date("2025-10-04"),
-    finalSaleDate: new Date("2025-11-09"),
+    finalSaleDate: new Date("2025-11-05"),
     title: "Promocional",
     link: configValues.eventLinkRegistrationUrl,
     value: 85,
@@ -14,7 +14,7 @@ const ticketBatches: Array<TicketBatch> = [
   new TicketBatch({
     description: "Entrada + Kit + Camiseta",
     firstSaleDate: new Date("2025-10-05"),
-    finalSaleDate: new Date("2025-11-06"),
+    finalSaleDate: new Date("2025-11-08"),
     title: "1º Lote ",
     link: configValues.eventLinkRegistrationUrl,
     value: 135,

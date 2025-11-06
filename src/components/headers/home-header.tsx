@@ -67,14 +67,14 @@ const HomeHeader: React.FC = ({}) => {
           >
             <span>&lt; INSCREVA-SE &gt;</span>
           </a>
-          <a
+          {/* <a
             className={styles.c4pButton}
             href="https://docs.google.com/forms/d/e/1FAIpQLSe4QDYFc-DkrkODgwJ2TUvy1nivD743_Vh6rnVE2P8Nxf1jYQ/viewform"
             target="_blank"
             rel="noreferrer"
           >
             <span>&lt; CALL 4 PAPERS &gt;</span>
-          </a>
+          </a> */}
         </div>
       </section>
 

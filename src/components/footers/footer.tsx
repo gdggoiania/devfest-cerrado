@@ -68,7 +68,7 @@ const Footer: React.FC<FooterProps> = ({}) => {
         <div className={styles.codigoConduta}>
           <FontAwesomeIcon icon={faPaperclip} size="xl" />
           <a
-            href="/codigoConduta/codigo-conduta_-_devfest-cerrado-10-anos-2024.pdf"
+            href="https://docs.google.com/document/d/1iDAl7wi3QvaqtjAuIOgjQgBm1wVirCzU7KorvkUNbic/edit?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className={styles.linkHover}
