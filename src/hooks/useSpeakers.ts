@@ -119,26 +119,26 @@ const speakers = [
       slide: ""
     }
   },
-  {
-    id: 7,
-    photo: "/speakers/2025/guilhermeBessa.png",
-    name: "Guilherme Bessa",
-    tech: "AI",
-    topic: "Demos de IA estão por toda parte, mas a maioria vive dentro de notebooks Jupyter e nunca chega à produção. O que acontece quando você precisa ir além dos protótipos e realmente rodar IA em sistemas reais? É aí que o Go se destaca. Nesta palestra, vamos explorar por que o Go é a linguagem perfeita para construir aplicações de IA confiáveis, escaláveis e prontas para produção. Vamos passar por exemplos práticos de como usar Go para integrar LLMs, criar chatbots, orquestrar agentes e ferramentas de IA, implementar pipelines RAG e até mesmo criar servidores MCP. Ao longo do caminho, destacaremos as melhores práticas para resiliência, observabilidade, segurança e escalabilidade em ambientes de produção. Também analisaremos estudos de caso do mundo real, incluindo o Google GenKit para Go, LangChainGo e outras iniciativas open-source que comprovam que o Go está rapidamente se tornando a espinha dorsal da IA empresarial. Se você está construindo o próximo agente de IA, incorporando LLMs à sua infraestrutura ou apenas curioso sobre o futuro da IA em produção, sairá da palestra com insights práticos, padrões de código e inspiração para fazer do Go sua linguagem de referência para IA.",
-    mini_bio: "Guilherme Rezende é Principal Engineer no QuintoAndar, com mais de 20 anos de experiência em tecnologia. Atuou como Diretor de Engenharia e Principal Engineer na Stone, liderando iniciativas em banking. Especialista em Go, Linux, Blockchain, Web3 e profundamente interessado em protocolos de comunicação, Guilherme é fundador da Gophercon Brasil, o maior evento de Go na América Latina, e colaborou em projetos de impacto como o Tsuru, PaaS open source da globo.com.",
-    title: "Go is the AI Language for Production",
-    gde: false,
-    showOnSite: true,
-    companyTitle: "",
-    social_media: {
-      instagram: "",
-      twitter: "",
-      linkedIn: "https://www.linkedin.com/in/guilhermebr/",
-      github: "github.com/guilhermebr",
-      website: "",
-      slide: ""
-    }
-  },
+  // {
+  //   id: 7,
+  //   photo: "/speakers/2025/guilhermeBessa.png",
+  //   name: "Guilherme Bessa",
+  //   tech: "AI",
+  //   topic: "Demos de IA estão por toda parte, mas a maioria vive dentro de notebooks Jupyter e nunca chega à produção. O que acontece quando você precisa ir além dos protótipos e realmente rodar IA em sistemas reais? É aí que o Go se destaca. Nesta palestra, vamos explorar por que o Go é a linguagem perfeita para construir aplicações de IA confiáveis, escaláveis e prontas para produção. Vamos passar por exemplos práticos de como usar Go para integrar LLMs, criar chatbots, orquestrar agentes e ferramentas de IA, implementar pipelines RAG e até mesmo criar servidores MCP. Ao longo do caminho, destacaremos as melhores práticas para resiliência, observabilidade, segurança e escalabilidade em ambientes de produção. Também analisaremos estudos de caso do mundo real, incluindo o Google GenKit para Go, LangChainGo e outras iniciativas open-source que comprovam que o Go está rapidamente se tornando a espinha dorsal da IA empresarial. Se você está construindo o próximo agente de IA, incorporando LLMs à sua infraestrutura ou apenas curioso sobre o futuro da IA em produção, sairá da palestra com insights práticos, padrões de código e inspiração para fazer do Go sua linguagem de referência para IA.",
+  //   mini_bio: "Guilherme Rezende é Principal Engineer no QuintoAndar, com mais de 20 anos de experiência em tecnologia. Atuou como Diretor de Engenharia e Principal Engineer na Stone, liderando iniciativas em banking. Especialista em Go, Linux, Blockchain, Web3 e profundamente interessado em protocolos de comunicação, Guilherme é fundador da Gophercon Brasil, o maior evento de Go na América Latina, e colaborou em projetos de impacto como o Tsuru, PaaS open source da globo.com.",
+  //   title: "Go is the AI Language for Production",
+  //   gde: false,
+  //   showOnSite: true,
+  //   companyTitle: "",
+  //   social_media: {
+  //     instagram: "",
+  //     twitter: "",
+  //     linkedIn: "https://www.linkedin.com/in/guilhermebr/",
+  //     github: "github.com/guilhermebr",
+  //     website: "",
+  //     slide: ""
+  //   }
+  // },
   {
     id: 8,
     photo: "/speakers/2025/weslleyAraujo.png",
@@ -401,11 +401,72 @@ const speakers = [
   },
   // {
   //   id: 21,
-  //   photo: "/aDefinir.png",
-  //   name: "A definir",
+  //   photo: "/speakers/2025/.png",
+  //   name: "Victor Pugliese",
   //   tech: "",
   //   topic: "",
   //   mini_bio: "",
+  //   title: "Google's Family of Open Models",
+  //   gde: false,
+  //   showOnSite: true,
+  //   companyTitle: "",
+  //   social_media: {
+  //     instagram: "",
+  //     twitter: "",
+  //     linkedIn: "",
+  //     github: "",
+  //     website: "",
+  //     slide: ""
+  //   }
+  // },
+  // {
+  //   id: 22,
+  //   photo: "/speakers/2025/toshiOssada.png",
+  //   name: "Toshi Ossada",
+  //   tech: "",
+  //   topic: "",
+  //   mini_bio: "Desenvolvedor de software desde 2006, Toshi Ossada demonstra sua paixão por tecnologia e inovação como Tech Lead Mobile na FarmaciasApp, onde lidera o desenvolvimento de soluções mobile de alta qualidade. Sua expertise é reconhecida oficialmente pelos títulos de Google Developer Expert (GDE) em Flutter & Dart e Microsoft Most Valuable Professional (MVP) em Developer Technologies e Web Technologies. Pioneiro na comunidade Flutter no Brasil, Toshi fundou a Flutter Brasil, fomentando o aprendizado e a colaboração. Ativamente compartilha seu conhecimento em eventos e workshops, inspirando outros desenvolvedores e reforçando seu papel de destaque no cenário tecnológico brasileiro",
+  //   title: "Vamos falar de Inteligência Artificial? Desenvolvendo Apps Inteligentes com Flutter e Gemini",
+  //   gde: false,
+  //   showOnSite: true,
+  //   companyTitle: "",
+  //   social_media: {
+  //     instagram: "",
+  //     twitter: "",
+  //     linkedIn: "https://www.linkedin.com/in/toshiossada",
+  //     github: "",
+  //     website: "https://toshiossada.dev/",
+  //     slide: ""
+  //   }
+  // },
+  // {
+  //   id: 23,
+  //   photo: "/speakers/2025/.png",
+  //   name: "Angélica",
+  //   tech: "",
+  //   topic: "",
+  //   mini_bio: "",
+  //   title: "Turbocharging Android Development: Boosting Productivity with Gemini in Android Studio",
+  //   gde: false,
+  //   showOnSite: true,
+  //   companyTitle: "",
+  //   social_media: {
+  //     instagram: "",
+  //     twitter: "",
+  //     linkedIn: "",
+  //     github: "",
+  //     website: "",
+  //     slide: ""
+  //   }
+  // },
+  // {
+  //   id: 24,
+  //   photo: "/speakers/2025/.png",
+  //   name: "",
+  //   tech: "",
+  //   topic: "",
+  //   mini_bio: "",
+  //   title: "",
   //   gde: false,
   //   showOnSite: true,
   //   companyTitle: "",
