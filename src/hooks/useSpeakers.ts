@@ -39,7 +39,7 @@ const speakers = [
       slide: ""
     }
   },
-  {
+  { //AGUARDANDO GOOGLE
     id: 3,
     photo: "/speakers/2025/alineAyres.png",
     name: "Aline Ayres",
@@ -59,26 +59,26 @@ const speakers = [
       slide: "",
     },
   },
-  {
-    id: 4,
-    photo: "/speakers/2025/mariaLuize.png",
-    name: "Maria Luize",
-    tech: "Google Earth Engine",
-    topic: "Nesta palestra, vamos explorar os Google Satellite Embeddings, uma nova base de dados do Google Earth Engine e DeepMind que transforma imagens de satélite em vetores, permitindo medir similaridade entre regiões, agrupar paisagens e até comparar padrões ambientais sem precisar treinar modelos. Você vai aprender como acessar esses embeddings no Earth Engine, gerar mapas de similaridade, aplicar reduções e até combinar com modelos Keras para tarefas personalizadas.",
-    mini_bio: "Maria Luize Pinheiro é engenheira da computação e pesquisadora especializada em Machine Learning e Deep Learning, com foco em visão computacional aplicada ao sensoriamento remoto. Participa da equipe de zona costeira no projeto MapBiomas, contribuindo para o mapeamento e monitoramento ambiental de classes presentes na zona costeira brasileira. Além de sua atuação técnica, é uma entusiasta da divulgação científica, buscando promover e ampliar o conhecimento dessa área no meio computacional.",
-    title: "O planeta em vetores: explorando os embeddings do Google Earth Engine",
-    gde: true,
-    showOnSite: true,
-    companyTitle: "",
-    social_media: {
-      instagram: "",
-      twitter: "",
-      linkedIn: "https://www.linkedin.com/in/marialuize/",
-      github: "",
-      website: "",
-      slide: ""
-    }
-  },
+  // {
+  //   id: 4,
+  //   photo: "/speakers/2025/mariaLuize.png",
+  //   name: "Maria Luize",
+  //   tech: "Google Earth Engine",
+  //   topic: "Nesta palestra, vamos explorar os Google Satellite Embeddings, uma nova base de dados do Google Earth Engine e DeepMind que transforma imagens de satélite em vetores, permitindo medir similaridade entre regiões, agrupar paisagens e até comparar padrões ambientais sem precisar treinar modelos. Você vai aprender como acessar esses embeddings no Earth Engine, gerar mapas de similaridade, aplicar reduções e até combinar com modelos Keras para tarefas personalizadas.",
+  //   mini_bio: "Maria Luize Pinheiro é engenheira da computação e pesquisadora especializada em Machine Learning e Deep Learning, com foco em visão computacional aplicada ao sensoriamento remoto. Participa da equipe de zona costeira no projeto MapBiomas, contribuindo para o mapeamento e monitoramento ambiental de classes presentes na zona costeira brasileira. Além de sua atuação técnica, é uma entusiasta da divulgação científica, buscando promover e ampliar o conhecimento dessa área no meio computacional.",
+  //   title: "O planeta em vetores: explorando os embeddings do Google Earth Engine",
+  //   gde: true,
+  //   showOnSite: true,
+  //   companyTitle: "",
+  //   social_media: {
+  //     instagram: "",
+  //     twitter: "",
+  //     linkedIn: "https://www.linkedin.com/in/marialuize/",
+  //     github: "",
+  //     website: "",
+  //     slide: ""
+  //   }
+  // },
   {
     id: 5,
     photo: "/speakers/2025/gabrielSampaio.png",
@@ -119,28 +119,8 @@ const speakers = [
       slide: ""
     }
   },
-  // {
-  //   id: 7,
-  //   photo: "/speakers/2025/guilhermeBessa.png",
-  //   name: "Guilherme Bessa",
-  //   tech: "AI",
-  //   topic: "Demos de IA estão por toda parte, mas a maioria vive dentro de notebooks Jupyter e nunca chega à produção. O que acontece quando você precisa ir além dos protótipos e realmente rodar IA em sistemas reais? É aí que o Go se destaca. Nesta palestra, vamos explorar por que o Go é a linguagem perfeita para construir aplicações de IA confiáveis, escaláveis e prontas para produção. Vamos passar por exemplos práticos de como usar Go para integrar LLMs, criar chatbots, orquestrar agentes e ferramentas de IA, implementar pipelines RAG e até mesmo criar servidores MCP. Ao longo do caminho, destacaremos as melhores práticas para resiliência, observabilidade, segurança e escalabilidade em ambientes de produção. Também analisaremos estudos de caso do mundo real, incluindo o Google GenKit para Go, LangChainGo e outras iniciativas open-source que comprovam que o Go está rapidamente se tornando a espinha dorsal da IA empresarial. Se você está construindo o próximo agente de IA, incorporando LLMs à sua infraestrutura ou apenas curioso sobre o futuro da IA em produção, sairá da palestra com insights práticos, padrões de código e inspiração para fazer do Go sua linguagem de referência para IA.",
-  //   mini_bio: "Guilherme Rezende é Principal Engineer no QuintoAndar, com mais de 20 anos de experiência em tecnologia. Atuou como Diretor de Engenharia e Principal Engineer na Stone, liderando iniciativas em banking. Especialista em Go, Linux, Blockchain, Web3 e profundamente interessado em protocolos de comunicação, Guilherme é fundador da Gophercon Brasil, o maior evento de Go na América Latina, e colaborou em projetos de impacto como o Tsuru, PaaS open source da globo.com.",
-  //   title: "Go is the AI Language for Production",
-  //   gde: false,
-  //   showOnSite: true,
-  //   companyTitle: "",
-  //   social_media: {
-  //     instagram: "",
-  //     twitter: "",
-  //     linkedIn: "https://www.linkedin.com/in/guilhermebr/",
-  //     github: "github.com/guilhermebr",
-  //     website: "",
-  //     slide: ""
-  //   }
-  // },
   {
-    id: 8,
+    id: 7,
     photo: "/speakers/2025/weslleyAraujo.png",
     name: "Weslley Araújo",
     tech: "Tecnologias Web",
@@ -160,7 +140,7 @@ const speakers = [
     }
   },
   {
-    id: 9,
+    id: 8,
     photo: "/speakers/2025/igorMateus.png",
     name: "Igor Mateus",
     tech: "Segurança da Informação",
@@ -180,7 +160,7 @@ const speakers = [
     }
   },
   {
-    id: 10,
+    id: 9,
     photo: "/speakers/2025/vanessaMota.png",
     name: "Vanessa Mota",
     tech: "Carreira e desenvolvimento pessoal",
@@ -200,7 +180,7 @@ const speakers = [
     }
   },
   {
-    id: 11,
+    id: 10,
     photo: "/speakers/2025/geovanaPereira.png",
     name: "Geovana Pereira",
     tech: "Carreira e desenvolvimento pessoal",
@@ -220,7 +200,7 @@ const speakers = [
     }
   },
   {
-    id: 12,
+    id: 11,
     photo: "/speakers/2025/leidianeBeatriz.png",
     name: "Leidiane Beatriz",
     tech: "Dados",
@@ -239,8 +219,8 @@ const speakers = [
       slide: ""
     }
   },
-  {
-    id: 13,
+  { //AGUARDANDO RESPOSTA
+    id: 12,
     photo: "/speakers/2025/patrickGratao.png",
     name: "Patrick Gratão",
     tech: "Tecnologias Web",
@@ -260,7 +240,7 @@ const speakers = [
     }
   },
   {
-    id: 14,
+    id: 13,
     photo: "/speakers/2025/igorCavalcante.png",
     name: "Igor Cavalcante",
     tech: "QA",
@@ -280,7 +260,7 @@ const speakers = [
     }
   },
   {
-    id: 15,
+    id: 14,
     photo: "/speakers/2025/olivarTamele.png",
     name: "Olivar Tamele",
     tech: "Mobile",
@@ -299,8 +279,8 @@ const speakers = [
       slide: ""
     }
   },
-  {
-    id: 16,
+  { //AGUARDANDO RESPOSTA
+    id: 15,
     photo: "/speakers/2025/thaynaraMabille.png",
     name: "Thaynara Mábille",
     tech: "Tecnologias Web",
@@ -320,7 +300,7 @@ const speakers = [
     }
   },
   {
-    id: 17,
+    id: 16,
     photo: "/speakers/2025/julianaResplande.png",
     name: "Juliana Resplande",
     tech: "Carreira e desenvolvimento pessoal",
@@ -340,7 +320,7 @@ const speakers = [
     }
   },
   {
-    id: 18,
+    id: 17,
     photo: "/speakers/2025/anaLuiza.png",
     name: "Ana Luiza",
     tech: "Carreira e desenvolvimento pessoal",
@@ -360,7 +340,7 @@ const speakers = [
     }
   },
   {
-    id: 19,
+    id: 18,
     photo: "/speakers/2025/guilhermeIago.png",
     name: "Guilherme Iago",
     tech: "Carreira e desenvolvimento pessoal",
@@ -380,7 +360,7 @@ const speakers = [
     }
   },
   {
-    id: 20,
+    id: 19,
     photo: "/speakers/2025/lucasAugusto.png",
     name: "Lucas Augusto",
     tech: "AI",
@@ -400,7 +380,7 @@ const speakers = [
     }
   },
   // {
-  //   id: 21,
+  //   id: 20,
   //   photo: "/speakers/2025/.png",
   //   name: "Victor Pugliese",
   //   tech: "",
@@ -420,7 +400,7 @@ const speakers = [
   //   }
   // },
   // {
-  //   id: 22,
+  //   id: 21,
   //   photo: "/speakers/2025/toshiOssada.png",
   //   name: "Toshi Ossada",
   //   tech: "",
@@ -440,7 +420,7 @@ const speakers = [
   //   }
   // },
   // {
-  //   id: 23,
+  //   id: 22,
   //   photo: "/speakers/2025/.png",
   //   name: "Angélica",
   //   tech: "",
