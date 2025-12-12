@@ -37,37 +37,43 @@ const renderPath = (path?: string) => {
   switch (path) {
     case "1":
       return pathHtml(
-        "Trilha: Folia de Reis",
+        "Trilha: Caçada",
         `/${path}.png`,
         styles.path_1_color
       );
     case "2":
       return pathHtml(
-        "Trilha: Dança Catira",
+        "Trilha: Lobeira",
         `/${path}.png`,
         styles.path_2_color
       );
     case "3":
       return pathHtml(
-        "Trilha: Moda de Viola",
+        "Trilha: Território",
         `/${path}.png`,
         styles.path_3_color
       );
     case "4":
       return pathHtml(
-        "Trilha: O Violeiro",
+        "Trilha: Crina",
         `/${path}.png`,
         styles.path_4_color
       );
     case "5":
       return pathHtml(
-        "Trilha: Sertanejo Raiz",
+        "Mentoria",
+        `/${path}.png`,
+        styles.path_5_color
+      );
+    case "6":
+      return pathHtml(
+        "Keynote",
         `/${path}.png`,
         styles.path_5_color
       );
     default:
       return pathHtml(
-        "Trilha: Rasqueado",
+        "Ana Neri",
         `/${path}.png`,
         styles.path_default_color
       );
