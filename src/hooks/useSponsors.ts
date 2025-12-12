@@ -7,11 +7,6 @@ const sponsors = {
         logo: "/patrocinio/googleDevelopers.png",
         url: "https://developers.google.com",
       },
-    ],
-  },
-  diamond: {
-    name: "Diamante",
-    items: [
       {
         name: "Sebrae Startups",
         logo: "/patrocinio/sebraeStartups.svg",
@@ -19,42 +14,26 @@ const sponsors = {
       },
     ],
   },
-  // golden: {
-  //   name: "Patrocinadores Prata",
+  // diamond: {
+  //   name: "Diamante",
   //   items: [
   //     {
-  //       name: "Unialfa",
-  //       logo: "/patrocinio/unialfa.png",
-  //       url: "https://www.unialfa.com.br/",
-  //     },
-  //     {
-  //       name: "Cilia Tecnologia",
-  //       logo: "/patrocinio/ciliaTecnologia.png",
-  //       url: "https://www.cilia.com.br/",
-  //     },
-  //     {
-  //       name: "ZG Soluções",
-  //       logo: "/patrocinio/zgSolucoes.png",
-  //       url: "https://zgsolucoes.com.br/",
-  //     },
-  //     {
-  //       name: "Acelera ZG",
-  //       logo: "/patrocinio/aceleraZg.png",
-  //       url: "https://www.instagram.com/zgsolucoes/",
-  //     },
-  //     {
-  //       name: "International",
-  //       logo: "/patrocinio/international.png",
-  //       url: "https://internationalidiomas.com.br/",
-  //     },
-  //     { name: "Intertech", logo: "/patrocinio/intertech.png", url: "" },
-  //     {
-  //       name: "Goya",
-  //       logo: "/patrocinio/goya.png",
-  //       url: "https://aguagoya.com.br/",
+  //       name: "",
+  //       logo: "",
+  //       url: "",
   //     },
   //   ],
   // },
+  golden: {
+    name: "Ouro",
+    items: [
+      {
+        name: "Noven",
+        logo: "/patrocinio/norven.png",
+        url: "https://norven.com.br/",
+      },
+    ],
+  },
   silver: {
     name: "Prata",
     items: [
@@ -68,26 +47,6 @@ const sponsors = {
         logo: "/patrocinio/alura.webp",
         url: "https://www.fiap.com.br/fiap-alura/",
       },
-      // {
-      //   name: "GDG Santos",
-      //   logo: "/apoio/gdgSantos.png",
-      //   url: "https://gdg.community.dev/gdg-santos/",
-      // },
-      // {
-      //   name: "Hub Goiás",
-      //   logo: "/apoio/hubGoias.png",
-      //   url: "https://hubgoias.org/",
-      // },
-      // {
-      //   name: "Vivo",
-      //   logo: "/apoio/vivo.png",
-      //   url: "https://vivo.com.br/para-voce",
-      // },
-      // {
-      //   name: "Nexo",
-      //   logo: "/apoio/nexoSolution.png",
-      //   url: "https://www.nexosolution.com.br/",
-      // },
     ],
   },
   bronze: {
@@ -99,8 +58,23 @@ const sponsors = {
         url: "https://www.aliare.co/",
       },
       {
+        name: "Sesi/Senai",
+        logo: "/patrocinio/sesi.png",
+        url: "https://senaigoias.com.br/",
+      },
+      {
+        name: "Forlex",
+        logo: "/patrocinio/forlex.png",
+        url: "https://www.forlex.ai/",
+      },
+      {
+        name: "Github",
+        logo: "/patrocinio/git.png",
+        url: "https://githubcampus.expert/",
+      },
+      {
         name: "International",
-        logo: "/patrocinio/intertech.webp",
+        logo: "/patrocinio/inter.png",
         url: "https://www.linkedin.com/company/international-escola-de-idiomas/?originalSubdomain=br",
       },
     ],
@@ -109,111 +83,64 @@ const sponsors = {
   //   name: "Comunidades parceiras",
   //   items: [
   //     {
-  //       name: "We Make Digital Games",
-  //       logo: "/parceiros/wmdg.png",
-  //       url: "https://www.wmdg.com.br/",
-  //     },
-  //     {
-  //       name: "Women in Machine Learning & Data Science",
-  //       logo: "/parceiros/wimlds.png",
-  //       url: "https://www.instagram.com/wimlds/",
-  //     },
-  //     {
-  //       name: "Mulheres GO",
-  //       logo: "/parceiros/mulheresGO.png",
-  //       url: "https://www.instagram.com/mulheresgo/",
-  //     },
-  //     {
-  //       name: "Women in Data Science Worldwide",
-  //       logo: "/parceiros/wdw.png",
-  //       url: "https://www.instagram.com/widsworldwide/",
-  //     },
-  //     {
-  //       name: "Portera Tech",
-  //       logo: "/parceiros/porteraTech.png",
-  //       url: "https://www.instagram.com/porteratech/",
-  //     },
-  //     {
-  //       name: "GitHub Campus Experts",
-  //       logo: "/parceiros/gitHubCampusExpert.png",
-  //       url: "https://education.github.com/campus_experts/",
-  //     },
-  //     {
-  //       name: "Somos Tech",
-  //       logo: "/parceiros/somosTech.png",
-  //       url: "https://www.instagram.com/somos_tech/",
-  //     },
-  //     {
-  //       name: "Quinta Onda",
-  //       logo: "/parceiros/quintaOnda.png",
-  //       url: "https://www.5onda.com.br/aboutUs",
-  //     },
-  //     { name: "DevSphere", logo: "/parceiros/devSphere.png", url: "" },
-  //     {
-  //       name: "Gestores GO",
-  //       logo: "/parceiros/gestoresGO.png",
-  //       url: "https://www.instagram.com/gestoresgo/",
-  //     },
-  //     {
-  //       name: "Join Community",
-  //       logo: "/parceiros/joinCommunity10Anos.png",
-  //       url: "https://www.joincommunity.com.br/",
-  //     },
-  //     {
-  //       name: "FTC Justice",
-  //       logo: "/parceiros/ftcJustice.png",
-  //       url: "https://justiceftc.com.br/",
+  //       name: "",
+  //       logo: "",
+  //       url: "",
   //     },
   //   ],
   // },
-  // ametista: {
-  //   name: "Caravanas e grupos",
-  //   items: [
-  //     {
-  //       name: "Women Techmakers",
-  //       logo: "/logoWtm.png",
-  //       url: "https://developers.google.com/womentechmakers",
-  //     },
-  //     // {name: 'GDG Rio Verde', logo: 'parceiros/gdgrioverde.png'},
-  //     {
-  //       name: "IFG Morrinhos",
-  //       logo: "/parceiros/ifgMorrinhos.png",
-  //       url: "https://ifgoiano.edu.br/home/index.php/morrinhos.html",
-  //     },
-  //     {
-  //       name: "INF UFG",
-  //       logo: "/parceiros/infUfg.png",
-  //       url: "https://inf.ufg.br/",
-  //     },
-  //     {
-  //       name: "DACC Morrinhos",
-  //       logo: "/parceiros/dacc.png",
-  //       url: "https://ifgoiano.edu.br/home/index.php/rio-verde.html",
-  //     },
-  //     {
-  //       name: "IFG Triângulo",
-  //       logo: "/parceiros/ifgTrianguloMineiro.png",
-  //       url: "https://iftm.edu.br/capa/",
-  //     },
-  //     {
-  //       name: "UEG",
-  //       logo: "/parceiros/ueg.png",
-  //       url: "https://www.ueg.br/goianesia/",
-  //     },
-  //     {
-  //       name: "UFJ",
-  //       logo: "/parceiros/ufj.png",
-  //       url: "https://portalufj.jatai.ufg.br/",
-  //     },
-  //   ],
-  // },
-  support: {
+  ametista: {
     name: "Apoio",
     items: [
       {
         name: "Hub Goiás",
         logo: "/patrocinio/hub.png",
         url: "https://hubgoias.org/",
+      },
+    ],
+  },
+  support: {
+    name: "Parceiros",
+    items: [
+      {
+        name: "BlackStars",
+        logo: "/patrocinio/blackStars.png",
+        url: "https://www.instagram.com/blackstars.br/",
+      },
+      {
+        name: "Banco do Brasil",
+        logo: "/patrocinio/bb.png",
+        url: "https://www.bb.com.br/",
+      },
+      {
+        name: "UFG",
+        logo: "/patrocinio/inf.png",
+        url: "https://inf.ufg.br/",
+      },
+      {
+        name: "GDG Santos",
+        logo: "/patrocinio/gdgSantos.png",
+        url: "https://www.instagram.com/gdg.santos/",
+      },
+      {
+        name: "Mulheres na TI",
+        logo: "/patrocinio/movimento.png",
+        url: "https://www.instagram.com/movimentomulheresnati/",
+      },
+      {
+        name: "CyBBer Mulheres",
+        logo: "/patrocinio/cybber.png",
+        url: "https://www.linkedin.com/in/cybbermulheres",
+      },
+      {
+        name: "WMDG",
+        logo: "/patrocinio/wmdg.png",
+        url: "https://www.wmdg.com.br/",
+      },
+      {
+        name: "Justice",
+        logo: "/patrocinio/justice.png",
+        url: "https://justiceftc.com.br/",
       },
     ],
   },
