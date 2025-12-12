@@ -59,6 +59,11 @@ export const Navbar = () => {
             Agenda
           </a>
         </li>
+         <li>
+          <a className={styles.navItem} href="/mentorias">
+            Mentorias
+          </a>
+        </li>
         {/* <li>
           <a className={styles.navItem} href="#album">
             Álbum

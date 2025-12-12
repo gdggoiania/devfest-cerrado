@@ -38,6 +38,11 @@ const Footer: React.FC<FooterProps> = ({}) => {
               Agenda
             </NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink href="/mentorias" className={styles.footerNavlink}>
+              Mentorias
+            </NavLink>
+          </NavItem>
           {/* <NavItem>
             <NavLink href="#album" className={styles.footerNavlink}>
               Álbum

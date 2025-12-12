@@ -490,12 +490,12 @@ const speakers = [
   },
   {
     id: 23,
-    photo: "/speakers/2025/mentoria.png",
-    name: "Claudia Malta/Elisângela Medeiros",
+    photo: "/speakers/2025/elisangelaCardoso.png",
+    name: "Elisangela Cardoso",
     tech: "UX/AGILIDADE",
     topic: "",
-    mini_bio: "",
-    title: "Mentoria",
+    mini_bio: "Elisangela Medeiros Neves Soares Fonseca Cardoso — nome de romance e energia de protagonista! Mãe orgulhosa de Arthur Augusto e Laura Helena, divide seu tempo entre o Banco do Brasil, onde atua como Agile Coach conectando estratégia, pessoas e entrega, e a empresa da família, os deliciosos Yummy Sucos. Possui 4 pós e diversas certificações em agilidade. Equilibra o mundo fitness com Heineken, louvores, pagode, sertanejo e Café com Deus Pai. Apaixonada por viagens e pelo conhecimento, acredita que o estudo liberta. E, como bônus, namora um bombeiro — porque quando a vida pega fogo, ela já sabe quem chamar!",
+    title: "Mentoria - UX/AGILIDADE",
     gde: false,
     showOnSite: false,
     companyTitle: "",
@@ -513,7 +513,8 @@ const speakers = [
     photo: "/speakers/2025/toshiOssada.png",
     name: "Toshi Ossada",
     tech: "Flutter",
-    topic: "Nesta apresentação, vamos explorar o fascinante mundo do desenvolvimento de aplicativos multiplataforma com Flutter e como podemos potencializar nossas criações integrando a poderosa IA do Gemini, através da API do AIStudio; abordaremos o Flutter, seus benefícios e como ele facilita a criação de interfaces ricas e nativas para diversas plataformas, descobriremos o que é o Gemini e como ele pode ser aplicado para aprimorar a experiência do usuário, além de uma demonstração prática de como conectar um projeto Flutter à API do AIStudio, com exemplos de uso e dicas para otimizar o uso do Gemini em projetos futuros.",
+    topic:
+      "Nesta apresentação, vamos explorar o fascinante mundo do desenvolvimento de aplicativos multiplataforma com Flutter e como podemos potencializar nossas criações integrando a poderosa IA do Gemini, através da API do AIStudio; abordaremos o Flutter, seus benefícios e como ele facilita a criação de interfaces ricas e nativas para diversas plataformas, descobriremos o que é o Gemini e como ele pode ser aplicado para aprimorar a experiência do usuário, além de uma demonstração prática de como conectar um projeto Flutter à API do AIStudio, com exemplos de uso e dicas para otimizar o uso do Gemini em projetos futuros.",
     mini_bio:
       "Desenvolvedor de software desde 2006, Toshi Ossada demonstra sua paixão por tecnologia e inovação como Tech Lead Mobile na FarmaciasApp, onde lidera o desenvolvimento de soluções mobile de alta qualidade. Sua expertise é reconhecida oficialmente pelos títulos de Google Developer Expert (GDE) em Flutter & Dart e Microsoft Most Valuable Professional (MVP) em Developer Technologies e Web Technologies. Pioneiro na comunidade Flutter no Brasil, Toshi fundou a Flutter Brasil, fomentando o aprendizado e a colaboração. Ativamente compartilha seu conhecimento em eventos e workshops, inspirando outros desenvolvedores e reforçando seu papel de destaque no cenário tecnológico brasileiro",
     title:
@@ -585,8 +586,7 @@ const speakers = [
       "Ok, vamos lá... existe TANTOS mitos sobre trampar pra gringa, que é impossível é um deles. Me acompanhe em uma das minhas poucas palestras não técnicas, nessa jornada de mitos, aprendizados e muitos ensinamentos de como foi minha jornada para conquistar vagas na gringa. Após 2 anos também nesse mercado, eu tenho um visão sobre como arquitetura têm mudado que quero compartilhar com vocês também. Receber em dólar é muito mais do que apenas passar em entrevistas, é saber se manter no mercado, evoluir técnicamente com estratégia.",
     mini_bio:
       "Ana Neri é uma Engenheira de Software Sênior trabalhando para os estados unidos com stack NestJS, Typescript, NodeJS e Serverless. Líder de uma das maiores comunidades de node, a NodeBR. Ama viajar já conheceu países de 3 continentes ao redor do mundo e nas suas redes cria conteúdo técnico avançado através de vídeos, e da sua newsletter gratuita. No tempo livre é uma baixista de heavy metal e gym rat.",
-    title:
-      "Destruindo mitos sobre trabalhar pra gringa como dev",
+    title: "Destruindo mitos sobre trabalhar pra gringa como dev",
     gde: false,
     showOnSite: true,
     companyTitle: "",
@@ -631,8 +631,7 @@ const speakers = [
       "Na palestra, irei compartilhar a jornada de alguém que saiu da Biomedicina para viver de desenvolvimento de software, e ao longo dessa caminhada, especialmente na Cilia, ficou claro pra mim que a linguagem de programação é só um detalhe. Em vez de defender stack, aprendi a defender problema bem entendido e solução bem construída. Vou mostrar, com casos reais, como times que focam na solução conseguem transitar entre tecnologias sem medo, inclusive agora, na era da IA, em que “converter esse código para linguagem X” virou um prompt. Os participantes vão sair com uma mudança de mentalidade: de “sou dev de linguagem X” para “sou dev que resolve problemas, e escolhe a linguagem depois”",
     mini_bio:
       "Sou biomédico de formação (PUC-GO), pós-graduado em Desenvolvimento de Software (SENAC-GO) e trabalho com desenvolvimento web desde 2009. Desde 2019 estou na Cilia Tecnologia, onde atuo como Tech Lead desde 2024, liderando times e soluções focadas em resultado.",
-    title:
-      "Da Lógica à Solução: A Linguagem é Só Detalhe",
+    title: "Da Lógica à Solução: A Linguagem é Só Detalhe",
     gde: false,
     showOnSite: true,
     companyTitle: "",
@@ -677,8 +676,7 @@ const speakers = [
       "Nessa palestra demonstraremos o poder de processamento e comunicação da linguagem Golang para sistemas integrados com IoT. Levarei um projeto de testes e demonstrarei ao vivo com alguns testes de carga em cima do projeto a velocidade e o poder de processamento da linguagem.",
     mini_bio:
       "10 anos de experiência em desenvolvimento de software e segurança da informação. Atualmente Backend Software Engineer na Embroker, organizador da comunidade Reactivando, contribuidor open source ativo e entusiasta de automobilismo. Apaixonado por tecnologia e velocidade.",
-    title:
-      "Golang e IoT: Um bom par?",
+    title: "Golang e IoT: Um bom par?",
     gde: false,
     showOnSite: true,
     companyTitle: "",
@@ -700,8 +698,7 @@ const speakers = [
       "A Inteligência Artificial está transformando a forma como criamos produtos digitais. Nesta palestra prática, você vai aprender a trabalhar lado a lado com a IA para criar protótipos mais inteligentes e alinhados às necessidades dos usuários. Vamos explorar ideação, prototipagem e validação com IA, apresentando exemplos reais e dicas para integrar essa parceria no seu dia a dia de design.",
     mini_bio:
       "UX Writer, Dev e Curadora IAs Conversacionais | Formada em ADS | Voluntária | Casada, mãe de pet, aquariana raiz, maluca por shows, comida e Coca Cola.",
-    title:
-      "UX Designer + IA: co-criando experiências digitais de alto impacto",
+    title: "UX Designer + IA: co-criando experiências digitais de alto impacto",
     gde: false,
     showOnSite: true,
     companyTitle: "",
@@ -719,12 +716,10 @@ const speakers = [
     photo: "/speakers/2025/weslleyAraujo.png",
     name: "Weslley Araújo",
     tech: "Tecnologias Web",
-    topic:
-      "",
+    topic: "",
     mini_bio:
       "Weslley Araújo é um desenvolvedor com mais de 10 anos de experiência, co-mantenedor do MySQL2 e criador do test runner Poku. Reconhecido como Microsoft MVP, Weslley impacta milhões de desenvolvedores e projetos globalmente através do open source.",
-    title:
-      "Mentoria sobre Open Source",
+    title: "Mentoria - Open Source (Não é necessária inscrição)",
     gde: false,
     showOnSite: false,
     companyTitle: "",
@@ -739,12 +734,13 @@ const speakers = [
   },
   {
     id: 34,
-    photo: "/speakers/2025/mentoria.png",
+    photo: "/speakers/2025/anaPaula.png",
     name: "Ana Paula Pantoja",
     tech: "DEV",
     topic: "",
-    mini_bio: "",
-    title: "Mentoria",
+    mini_bio:
+      "Ana Paula Pantoja é mãe do Victor e do Davi, orgulhosa da trajetória construída desde a adolescência, quando iniciou sua jornada na maternidade. É Flamenguista raiz e apaixonada por futebol. Atua há 15 anos como analista desenvolvedora COBOL no Banco do Brasil. Formada em Análise e Desenvolvimento de Sistemas, é pós-graduada em Big Data e Desenvolvimento Web Full Stack. Também é embaixadora do movimento Mulheres na TI, buscando inspirar e apoiar outras mulheres na tecnologia. Entre códigos e obstáculos, ela é prova viva de que, com garra, talento e uma rede de apoio, é possível conciliar carreira, maternidade e transformar desafios em conquistas.",
+    title: "Mentoria - DEV",
     gde: false,
     showOnSite: false,
     companyTitle: "",
@@ -763,8 +759,29 @@ const speakers = [
     name: "Barbara Cabral",
     tech: "Cibersegurança",
     topic: "",
-    mini_bio: "",
-    title: "Mentoria",
+    mini_bio:
+      "Cargo: Engenheira Sênior de segurança digital. Empresa: Banco do Brasil. Engenheira Sênior de Segurança Digital no Centro de Excelência em Segurança do Banco do Brasil, atua com foco  na integração da segurança  junto às áreas de negócios no contexto do modelo ágil. Graduada  em Análise e Desenvolvimento de Sistemas, possui MBA em Cyber Security pelo IBMEC e é mestre  em Segurança Cibernética pelo dela de engenharia elétrica da UnB.Co-fundadora  do CyBBer Mulheres, grupo voluntário que apoia a inserção e o crescimento de mulheres na cibersegurança, onde também atua como mentora em conjunto com o grupo Mulheres na TI , ampliando sua atuação em iniciativas de diversidade e tecnologia.  Ama  viajar  e  praticar fit dance.",
+    title: "Mentoria - Cibersegurança",
+    gde: false,
+    showOnSite: false,
+    companyTitle: "",
+    social_media: {
+      instagram: "",
+      twitter: "",
+      linkedIn: "",
+      github: "",
+      website: "",
+      slide: "",
+    },
+  },
+  {
+    id: 36,
+    photo: "/speakers/2025/jaquelineDamacena.png",
+    name: "Jaqueline Damacena",
+    tech: "AI",
+    topic: "",
+    mini_bio: "Atuo em TI desde 2020, com experiência em Data Analytics, Threat Hunting,  Cyber Threat Intelligence. Transformando dados em insights acionáveis para proteger empresas contra ameaças cibernéticas e garantir a continuidade dos negócios. Assessoramento sobre ameaças,  vulnerabilidades e riscos cibernéticos, e de segurança da informação. Graduada em Informática,  Especialista em Big Data Analytics,  Psicologia do Trabalho, Auditoria Bancária e Compliance. Atualmente cursando Mestrado em Engenharia Elétrica na UnB, com ênfase em Cibersegurança. Certificada em Resposta a Incidentes pela SANS GIAC, GCIH, 2023. Certificada em: - Inteligência Cibernética pela EC-Council, CTIA, 2025 -AI Risk Management pela certiprof, AIRMPC , 2025. Certificada em ISO/IEC 23894 AI Risk Management, ISO/IEC 38507 AI Governance, ISO/IEC 42001 AI Management Systems - ITCerts, 2025 Cofundadora do grupo de ação Voluntária CyBBer Mulheres https://br.linkedin.com/in/cybbermulheres, que tem por objetivo incentivar e apoiar mulheres que atuam ou desejam atuar nas áreas relacionadas à Segurança Digital. Mentora Voluntária de reskilling no Movimento Mulheres na TI https://www.linkedin.com/company/movimentomulheresnati/",
+    title: "Mentoria - AI",
     gde: false,
     showOnSite: false,
     companyTitle: "",
@@ -778,13 +795,13 @@ const speakers = [
     },
   },
     {
-    id: 36,
-    photo: "/speakers/2025/mentoria.png",
-    name: "Jaqueline Damaceno",
-    tech: "AI",
+    id: 37,
+    photo: "/speakers/2025/claudiaMalta.png",
+    name: "Claudia Malta ",
+    tech: "UX/AGILIDADE",
     topic: "",
-    mini_bio: "",
-    title: "Mentoria",
+    mini_bio: "Claudia é funcionária do Banco do Brasil, trabalha na diretoria de tecnologia a mais de 25 anos, atualmente integra a equipe de inovação tecnológica coordenando o Programa Estágio no Cliente, uma imersão negocial junto aos clientes do Banco do Brasil. Formada em administração de empresas e pós graduada em MBA-Gestão de Projetos. É Agilista, certificada em CSM, A-CSM, CSPO, FLM e Product Manager. Cofundadora do Movimento Mulheres na TI, Conselheira Deliberativa da Associação Atlética do Banco do Brasil - AABB-DF. O seu melhor papel é ser mãe, Larissa e Luana, gêmeas, hoje com 25 anos. Apaixonada por esportes, foi jogadora de vôlei profissional e hoje tem como pilar a qualidade de Vida. Suas características: adaptabilidade, bom humor, dinamismo, responsabilidade, excelência na execução, dedicação ao trabalho e bom relacionamento interpessoal.",
+    title: "Mentoria - UX/AGILIDADE",
     gde: false,
     showOnSite: false,
     companyTitle: "",
