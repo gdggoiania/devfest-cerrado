@@ -76,7 +76,7 @@ const schedule = [
         speaker_id: 0,
         speakers: [
           {
-            topic: Leidiane Rodrigues",
+            topic: "Leidiane Rodrigues",
             speaker_id: 11,
             start: "10:00",
             end: "10:30",
