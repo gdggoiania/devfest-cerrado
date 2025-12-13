@@ -309,7 +309,7 @@ const schedule = [
         speaker_id: 0,
         speakers: [
           {
-            topic: "Thaynara Mábille"
+            topic: "Thaynara Mábille",
             speaker_id: 15,
             start: "14:00",
             end: "14:30",
