@@ -23,11 +23,11 @@ const Footer: React.FC<FooterProps> = ({}) => {
               Sobre
             </NavLink>
           </NavItem>
-          {/* <NavItem>
+          <NavItem>
             <NavLink href="#certificate" className={styles.footerNavlink}>
               Certificado
             </NavLink>
-          </NavItem> */}
+          </NavItem>
           <NavItem>
             <NavLink href="/speakers" className={styles.footerNavlink}>
               Palestrantes
@@ -43,11 +43,11 @@ const Footer: React.FC<FooterProps> = ({}) => {
               Mentorias
             </NavLink>
           </NavItem>
-          {/* <NavItem>
+          <NavItem>
             <NavLink href="#album" className={styles.footerNavlink}>
               Álbum
             </NavLink>
-          </NavItem> */}
+          </NavItem>
           <NavItem>
             <NavLink href="/sponsors" className={styles.footerNavlink}>
               Patrocinadores

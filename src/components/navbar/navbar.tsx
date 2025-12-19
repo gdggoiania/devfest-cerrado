@@ -44,11 +44,11 @@ export const Navbar = () => {
             Sobre
           </a>
         </li>
-        {/* <li>
+        <li>
           <a className={styles.navItem} href="#certificate">
             Certificado
           </a>
-        </li> */}
+        </li>
         <li>
           <a className={styles.navItem} href="/speakers">
             Palestrantes
@@ -64,11 +64,11 @@ export const Navbar = () => {
             Mentorias
           </a>
         </li>
-        {/* <li>
+        <li>
           <a className={styles.navItem} href="#album">
             Álbum
           </a>
-        </li> */}
+        </li>
         <li>
           <a className={styles.navItem} href="/sponsors">
             Patrocinadores

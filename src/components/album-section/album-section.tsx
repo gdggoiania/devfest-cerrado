@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { Col, Container, Row } from "reactstrap";
-import { faCamera, faVideoCamera} from "@fortawesome/free-solid-svg-icons";
+import { faCamera, faVideoCamera } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import BaseLayout from "../../layouts/base-layout";
 import styles from "./album.module.css";
@@ -12,20 +12,14 @@ const AlbumSection = () => {
       <h1 className={styles.Title}>Álbum oficial</h1>
       <Row>
         <Col className={styles.album_col}>
-          <h2 className={styles.album_h2}>Adicione vídeos e fotos do evento</h2>
-
           <p>
             Que tal reviver alguns momentos? O álbum oficial do evento está
             pronto e você pode contribuir
           </p>
-          <p>
-            Acesse o link abaixo pra fazer o upload de vídeos e fotos que você
-            capturou durante o evento
-          </p>
 
           <h2 className={styles.album_h2}>
             <a
-              href="https://photos.app.goo.gl/atofmR77z9oVwAyz8"
+              href="https://photos.google.com/u/4/share/AF1QipMdDc5Q6XJ6RzxujZ7n-gVZgMRein-1PX9rqTR43iWIadm5aUrbC7qNuAqZH9MJxw?key=NFg1dE1CZ09Iay1kUTc2elZPVVp1cXh5TXhOUzJn"
               target="_blank"
               rel="noreferrer"
             >
@@ -34,31 +28,23 @@ const AlbumSection = () => {
             </a>
           </h2>
 
-          <h2 className={styles.album_h2}>
-            <a
-              href="https://drive.google.com/drive/folders/107Ip38WrJ53S_hCwgC6XCa_MqbOLTGh4?usp=sharing"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faVideoCamera} />
-              Vídeos
-            </a>
-          </h2>
-
           <p>
-            Quando postar nas redes sociais, use a{" "}
-            <span className={styles.album_span}> #devfestcerrado</span> e marque
-            o{" "}
+            Quando postar nas redes sociais, use as{" "}
+            <span className={styles.album_span}> #devfestcerrado #dfc</span> e marque{" "}
             <span className={styles.album_span}>
-              <a href="https://www.instagram.com/devfestcerrado/">
-                @devfestcerrado
+              <a href="https://www.instagram.com/devfest_cerrado/">
+                @devfest_cerrado
               </a>
             </span>{" "}
-            e o{" "}
             <span className={styles.album_span}>
-              <a href="https://www.instagram.com/stories/gdggoiania/">
-                @gdggoiania
-              </a>
+              <a href="https://www.instagram.com/gdg_goiania/">@gdg_goiania</a>
+            </span>{" "}
+            <span className={styles.album_span}>
+              <a href="https://www.instagram.com/wtm_goiania/">@wtm_goiania</a>
+            </span>
+            <br />
+            <span className={styles.album_span}>
+              <a href="https://www.linkedin.com/company/gdggoiania">LinkedIn</a>
             </span>
           </p>
         </Col>

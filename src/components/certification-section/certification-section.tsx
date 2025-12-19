@@ -16,23 +16,15 @@ const CertificationSection = () => {
         <iframe
           scrolling="0"
           id="iframe-inscricao"
-          style={{ width: "100%", height: "500px", border: "none" }}
-          src="https://doity.com.br/devfest-cerrado-2024/certificados?box=1"
+          style={{width: "100%", height: "500px", border: "none"}}
+          src="https://doity.com.br/dfc25/certificados?box=1"
         >
           {" "}
         </iframe>{" "}
-        <p
-          style={{
-            textAlign: "center",
-            color: "#666672",
-            fontSize: "14px",
-            fontFamily: "'Open Sans', Helvetica, Arial, sans-serif",
-            fontWeight: "bolder",
-          }}
-        >
+        <p style={{textAlign: "center", color: "#666672", fontSize: "14px", fontFamily: "'Open Sans',Helvetica, Arial, sans-serif", fontWeight: "bolder"}}>
           {" "}
           Caso n&atilde;o encontre seu certificado{" "}
-          <a target="_blank" href="https://doity.com.br/devfest-cerrado-2024">
+          <a target="_blank" href="https://doity.com.br/dfc25">
             clique aqui{" "}
           </a>{" "}
         </p>
