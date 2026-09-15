@@ -1,9 +1,9 @@
 const configValues = {
-  name: "DevFest Cerrado 2025",
-  eventDate: "2025-12-13T08:00:00",
-  eventLinkRegistrationUrl: "https://doity.com.br/dfc25",
-  place: "Local: HUB Goiás - Centro de Excelência em Empreendedorismo Inovador",
-  formattedDate: "Dia 13 de Dezembro de 2025",
+  name: "DevFest Cerrado 2026",
+  eventDate: "2026-11-28T08:00:00",
+  eventLinkRegistrationUrl: "https://doity.com.br/devfest-cerrado-2026",
+  place: "Local: Equatore Eventos",
+  formattedDate: "Dia 28 de Novembro de 2026",
   email: "gdggoiania@gmail.com",
 };
 

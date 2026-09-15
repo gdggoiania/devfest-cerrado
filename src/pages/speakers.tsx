@@ -33,7 +33,7 @@ const SpeakersPage = ({}: SpeakersPageProps) => {
       <Container fluid>
         <h1 className={styles.pageTitle}>Palestrantes</h1>
         <p className={styles.pageDescription}>
-          As pessoas palestrantes do DevFest Cerrado 2025 possuem uma variedade
+          As pessoas palestrantes do DevFest Cerrado 2026 possuem uma variedade
           de experiências, que vão desde pessoas desenvolvedoras experientes à
           lideres de comunidades. As pessoas que palestram com frenquência se
           engajam em conversas técnicas em suas empresas, cidades e países. No
@@ -45,20 +45,20 @@ const SpeakersPage = ({}: SpeakersPageProps) => {
             {speakers.map((speaker) => constructSpeakerCol(speaker))}
           </Row>
         </section>
-        {/* <div className={styles.call4Papers}>
+        <div className={styles.call4Papers}>
           <button className={styles.call4PapersButton}>
             <a
               className={styles.call4PapersLink}
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe4QDYFc-DkrkODgwJ2TUvy1nivD743_Vh6rnVE2P8Nxf1jYQ/viewform"
+              href="https://forms.gle/GRJLGNVVAX2cCocXA"
               target="_blank"
               rel="noreferrer"
             >
               <span className={styles.call4PapersSpan}>
-                Quero palestrar no DevFest Cerrado 2025
+                Quero palestrar no DevFest Cerrado 2026
               </span>
             </a>
           </button>
-        </div> */}
+        </div>
       </Container>
     </div>
   );

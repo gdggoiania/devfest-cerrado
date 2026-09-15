@@ -65,7 +65,7 @@ const SpeakersSection: React.FC<SpeakersSectionProps> = ({}) => {
       <div id="speakers" className={styles.container}>
         <h1 className={styles.Title}>Palestrantes</h1>
         <p style={{ textAlign: "justify", textAlignLast: "center" }}>
-          O time de palestrantes do DevFest Cerrado 2025 traz grandes nomes da
+          O time de palestrantes do DevFest Cerrado 2026 traz grandes nomes da
           área técnica e referências em liderança de comunidades. Reunimos em um
           só evento Google Developer Experts (GDEs), Tech Leads, pessoas
           desenvolvedoras e principalmente pessoas resolvedoras de problemas.
@@ -73,20 +73,20 @@ const SpeakersSection: React.FC<SpeakersSectionProps> = ({}) => {
           além de conhecimento técnico, contando com muita interatividade,
           conexões e diversidade.
         </p>
-        {/* <div className={styles.call4Papers}>
+        <div className={styles.call4Papers}>
           <button className={styles.call4PapersButton}>
             <a
               className={styles.call4PapersLink}
-              href="https://docs.google.com/forms/d/e/1FAIpQLSe4QDYFc-DkrkODgwJ2TUvy1nivD743_Vh6rnVE2P8Nxf1jYQ/viewform"
+              href="https://forms.gle/GRJLGNVVAX2cCocXA"
               target="_blank"
               rel="noreferrer"
             >
               <span className={styles.call4PapersSpan}>
-                Quero palestrar no DevFest Cerrado 2025
+                Quero palestrar no DevFest Cerrado 2026
               </span>
             </a>
           </button>
-        </div> */}
+        </div>
         <div className={styles.cards}>
           <Carousel
             activeIndex={activeIndex}

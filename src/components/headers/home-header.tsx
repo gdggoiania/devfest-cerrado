@@ -49,13 +49,13 @@ const HomeHeader: React.FC = ({}) => {
     <header>
       <section className={styles.HeaderContainer}>
         <picture>
-          <source media="(min-width: 1024px)" srcSet="/capa-email-4.png" />
+          <source media="(min-width: 1024px)" srcSet="/devfestCerradoHorizontal.png" />
           <source
             media="(max-width: 768px)"
             srcSet="/headerDevfest2024msite.png"
           />
           {/* <source media="(max-width: 480px)" srcSet="/capa-email-4.png" /> */}
-          <img src="/capa-email-4.png" alt="" loading="lazy" />
+          <img src="/devfestCerradoHorizontal.png" alt="" loading="lazy" />
         </picture>
 
         <div className={styles.RegisterContainer}>
@@ -67,14 +67,14 @@ const HomeHeader: React.FC = ({}) => {
           >
             <span>&lt; INSCREVA-SE &gt;</span>
           </a>
-          {/* <a
+          <a
             className={styles.c4pButton}
-            href="https://docs.google.com/forms/d/e/1FAIpQLSe4QDYFc-DkrkODgwJ2TUvy1nivD743_Vh6rnVE2P8Nxf1jYQ/viewform"
+            href="https://forms.gle/GRJLGNVVAX2cCocXA"
             target="_blank"
             rel="noreferrer"
           >
             <span>&lt; CALL 4 PAPERS &gt;</span>
-          </a> */}
+          </a>
         </div>
       </section>
 

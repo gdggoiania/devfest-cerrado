@@ -23,31 +23,31 @@ const Footer: React.FC<FooterProps> = ({}) => {
               Sobre
             </NavLink>
           </NavItem>
-          <NavItem>
+          {/* <NavItem>
             <NavLink href="#certificate" className={styles.footerNavlink}>
               Certificado
             </NavLink>
-          </NavItem>
+          </NavItem> */}
           <NavItem>
             <NavLink href="/speakers" className={styles.footerNavlink}>
               Palestrantes
             </NavLink>
           </NavItem>
-          <NavItem>
+          {/* <NavItem>
             <NavLink href="#schedule" className={styles.footerNavlink}>
               Agenda
             </NavLink>
-          </NavItem>
-          <NavItem>
+          </NavItem> */}
+          {/* <NavItem>
             <NavLink href="/mentorias" className={styles.footerNavlink}>
               Mentorias
             </NavLink>
-          </NavItem>
-          <NavItem>
+          </NavItem> */}
+          {/* <NavItem>
             <NavLink href="#album" className={styles.footerNavlink}>
               Álbum
             </NavLink>
-          </NavItem>
+          </NavItem> */}
           <NavItem>
             <NavLink href="/sponsors" className={styles.footerNavlink}>
               Patrocinadores
@@ -84,7 +84,7 @@ const Footer: React.FC<FooterProps> = ({}) => {
         <div className={styles.codigoConduta}>
           <FontAwesomeIcon icon={faMapMarkerAlt} size="xl" color="#e1306c" />
           <a
-            href="https://maps.app.goo.gl/ESWT7no2xhDtGMJL9"
+            href="https://maps.app.goo.gl/rsnwhwQq3MNpTPUs5"
             target="_blank"
             rel="noreferrer"
             className={styles.linkHover}

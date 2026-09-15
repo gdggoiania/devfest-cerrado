@@ -13,8 +13,8 @@ interface MentoriasPageProps {
 
 const MentoriasPage = ({}: MentoriasPageProps) => {
   const mentoriaIds = [23, 34, 35, 36, 37];
-  const speakers: Array<Speaker> = _speakers.filter(speaker => 
-    mentoriaIds.includes(speaker.id)
+  const speakers: Array<Speaker> = _speakers.filter(
+    (speaker) => speaker.id !== undefined && mentoriaIds.includes(speaker.id)
   );
 
   const constructSpeakerCol = (_speaker: Speaker) => {
@@ -34,7 +34,7 @@ const MentoriasPage = ({}: MentoriasPageProps) => {
       <Container fluid>
         <h1 className={styles.pageTitle}>Mentorias</h1>
         <p className={styles.pageDescription}>
-          As mentorias do DevFest Cerrado 2025 são uma oportunidade única de 
+          As mentorias do DevFest Cerrado 2026 são uma oportunidade única de 
           aprendizado e desenvolvimento profissional. Conecte-se com profissionais 
           experientes que compartilharão conhecimentos valiosos sobre suas áreas 
           de atuação, oferecendo orientação personalizada para ajudar você a 

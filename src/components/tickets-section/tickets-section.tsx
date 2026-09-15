@@ -31,15 +31,13 @@ const TicketsSection: React.FC = ({}) => {
           <script
             src="https://doity.com.br/js/box_inscricao.js"
             type="text/javascript"
-          ></script>{" "}
+          ></script>
           <iframe
             scrolling="0"
             id="iframe-inscricao"
             style={{ width: "100%", height: "500px", border: "none" }}
-            src="https://doity.com.br/dfc25/passo1?box=1"
-          >
-            {" "}
-          </iframe>{" "}
+            src="https://doity.com.br/devfest-cerrado-2026/passo1?box=1"
+          ></iframe>
           <p
             style={{
               textAlign: "center",
@@ -49,11 +47,10 @@ const TicketsSection: React.FC = ({}) => {
               fontWeight: "bolder",
             }}
           >
-            {" "}
-            Caso n&atilde;o consiga fazer a inscri&ccedil;&atilde;o{" "}
-            <a target="_blank" href="https://doity.com.br/dfc25">
-              clique aqui{" "}
-            </a>{" "}
+            Caso não consiga fazer a inscrição
+            <a target="_blank" href="https://doity.com.br/devfest-cerrado-2026">
+              clique aqui
+            </a>
           </p>
         </details>
         <div>
