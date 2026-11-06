@@ -25,29 +25,34 @@ const sponsors = {
     ],
   },
   golden: {
-    // name: "Ouro",
-    // items: [
-    //   {
-    //     name: "Noven",
-    //     logo: "/patrocinio/norven.png",
-    //     url: "https://norven.com.br/",
-    //   },
-    // ],
+    name: "Ouro",
+    items: [
+      {
+        name: "SESI/SENAI",
+        logo: "/patrocinio/sesiSenai.png",
+        url: "",
+      },
+      {
+        name: "Forlex",
+        logo: "/patrocinio/forlex.png",
+        url: "",
+      },
+    ],
   },
   silver: {
-    // name: "Prata",
-    // items: [
-    //   {
-    //     name: "Cilia",
-    //     logo: "/patrocinio/cilia.png",
-    //     url: "https://cilia.com.br/",
-    //   },
-    //   {
-    //     name: "Alura/FIAP",
-    //     logo: "/patrocinio/alura.webp",
-    //     url: "https://www.fiap.com.br/fiap-alura/",
-    //   },
-    // ],
+    name: "Prata",
+    items: [
+      // {
+      //   name: "Cilia",
+      //   logo: "/patrocinio/cilia.png",
+      //   url: "https://cilia.com.br/",
+      // },
+      {
+        name: "FIAP",
+        logo: "/patrocinio/fiap.png",
+        url: "",
+      },
+    ],
   },
   bronze: {
     // name: "Bronze",
