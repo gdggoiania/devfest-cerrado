@@ -58,7 +58,7 @@ const HomeHeader: React.FC = ({}) => {
           <img src="/devfestCerradoHorizontal.png" alt="" loading="lazy" />
         </picture>
 
-        <div className={styles.RegisterContainer}>
+        {/* <div className={styles.RegisterContainer}>
           <a
             className={styles.RegisterButton}
             href={configValues.eventLinkRegistrationUrl}
@@ -75,7 +75,7 @@ const HomeHeader: React.FC = ({}) => {
           >
             <span>&lt; CALL 4 PAPERS &gt;</span>
           </a>
-        </div>
+        </div> */}
       </section>
 
       <section className={styles.Counter}>
