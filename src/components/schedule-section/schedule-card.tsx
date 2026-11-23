@@ -37,31 +37,31 @@ const renderPath = (path?: string) => {
   switch (path) {
     case "1":
       return pathHtml(
-        "Trilha: Caçada",
+        "Trilha: 1",
         `/${path}.png`,
         styles.path_1_color
       );
     case "2":
       return pathHtml(
-        "Trilha: Lobeira",
+        "Trilha: 2",
         `/${path}.png`,
         styles.path_2_color
       );
     case "3":
       return pathHtml(
-        "Trilha: Território",
+        "Trilha: 3",
         `/${path}.png`,
         styles.path_3_color
       );
     case "4":
       return pathHtml(
-        "Trilha: Crina",
+        "Trilha: 4",
         `/${path}.png`,
         styles.path_4_color
       );
     case "5":
       return pathHtml(
-        "Mentoria",
+        "",
         `/${path}.png`,
         styles.path_5_color
       );
@@ -73,7 +73,7 @@ const renderPath = (path?: string) => {
       );
     default:
       return pathHtml(
-        "Ana Neri",
+        "",
         `/${path}.png`,
         styles.path_default_color
       );
