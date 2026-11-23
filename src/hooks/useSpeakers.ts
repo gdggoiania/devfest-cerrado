@@ -1,11 +1,11 @@
 const speakers = [
   {
     id: 1,
-    photo: "/speakers/aDefinir.png",
+    photo: "/speakers/2026/alexandreUehara.png",
     name: "Alexandre Uehara",
     tech: "Keynote",
     topic: "Keynote",
-    mini_bio: "",
+    mini_bio: "Ale Uehara é palestrante e conselheiro em inovação corporativa, com mais de 25 anos ajudando grandes empresas e startups a navegarem na transformação digital e no futuro dos negócios. Ex-membro do Comitê Executivo da Febraban, professor do MBA e da Pós Tech da FIAP em Gestão de Inovação e IA para Inovação e Transformação Digital, e Diretor do Founder Institute Brazil — a maior aceleradora de startups pré-seed do mundo. Reconhecido como Top3 e Top10 Mentor do Startup Awards (2022-2024), investidor de startups e curador de eventos da ABFintechs, Ale conecta líderes e organizações às tendências globais de inovação, atuando também como analista do Shark Tank Brasil e embaixador da SingularityU São Paulo Chapter.",
     title: "Do código ao board: o dev que a era da IA vai precisar",
     gde: false,
     showOnSite: true,
@@ -13,7 +13,7 @@ const speakers = [
     social_media: {
       instagram: "",
       twitter: "",
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/aleuehara/",
       github: "",
       website: "",
       slide: "",
@@ -33,7 +33,7 @@ const speakers = [
     social_media: {
       instagram: "",
       twitter: "",
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/pedrohmlara/",
       github: "",
       website: "",
       slide: "",
@@ -49,7 +49,7 @@ const speakers = [
     title: "Do Zero ao Gemma Customizado: Desvendando SLMs com Keras, JAX e Unsloth",
     gde: false,
     showOnSite: true,
-    companyTitle: "Professor e Pesquisador",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -61,11 +61,11 @@ const speakers = [
   },
   {
     id: 4,
-    photo: "/speakers/aDefinir.png",
-    name: "Alvaro",
+    photo: "/speakers/2026/alvaroDavid.png",
+    name: "Alvaro David",
     tech: "IA Generativa e Agentes",
     topic: "IA Generativa e Agentes",
-    mini_bio: "",
+    mini_bio: "Apaixonado por comunidades e compartilhamento de conhecimento, sempre procurando maneiras de facilitar a vida dos desenvolvedores. Adoro viajar e aprender sobre novas culturas, comida e música (gosto de rock e metal mas sempre é bom ouvir um pagode) e já fiquei viradas completas jogando videogames e assistindo animes.",
     title: "Lições aprendidas do SRE para GenAI",
     gde: true,
     showOnSite: true,
@@ -73,7 +73,7 @@ const speakers = [
     social_media: {
       instagram: "",
       twitter: "",
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/alvardev/",
       github: "",
       website: "",
       slide: "",
@@ -89,7 +89,7 @@ const speakers = [
     title: "Chega de Papo Furado com a IA: Como Orquestrar Agentes que Resolvem sua Rotina",
     gde: false,
     showOnSite: true,
-    companyTitle: "Engenheiro de Software Full-Stack - Embaixador Estudantil Google - Profissional Certificado em IA pela Google",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -109,7 +109,7 @@ const speakers = [
     title: "YOLO Agents - Só se vive uma vez!",
     gde: false,
     showOnSite: true,
-    companyTitle: "CEO da Agilix, Pesquisadora na UFG e Tutora no AKCIT/CEIA.",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -121,11 +121,11 @@ const speakers = [
   },
   {
     id: 7,
-    photo: "/speakers/aDefinir.png",
+    photo: "/speakers/2026/alissonDavid.png",
     name: "Alisson David",
     tech: "Cloud, Dados e IA Aplicada",
     topic: "Cloud, Dados e IA Aplicada",
-    mini_bio: "",
+    mini_bio: "Alisson Rosa possui mais de 10 anos de experiência liderando projetos complexos de engenharia e arquitetura de dados em escala. Atualmente atua como Staff Data & AI Engineer, é fundador da DexaData e Google Developer Expert (GDE) em Cloud e AI. Especialista em Google Cloud Platform (GCP), BigQuery e orquestração de workflows e agentes de IA, dedica-se a desenhar plataformas de dados resilientes e soluções de inteligência artificial corporativa.",
     title: "Orquestrando Data Pipelines com Leoflow no GKE e BigQuery",
     gde: true,
     showOnSite: true,
@@ -141,7 +141,7 @@ const speakers = [
   },
   {
     id: 8,
-    photo: "/speakers/aDefinir.png",
+    photo: "/speakers/2026/arnaldoGualberto.png",
     name: "Arnaldo Gualberto",
     tech: "Cloud, Dados e IA Aplicada",
     topic: "Cloud, Dados e IA Aplicada",
@@ -149,11 +149,11 @@ const speakers = [
     title: "Gêmeo Digital: Treinando uma IA com Minha Própria Personalidade",
     gde: true,
     showOnSite: true,
-    companyTitle: "Google Developer Expert em IA",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
-      linkedIn: "",
+      linkedIn: "https://br.linkedin.com/in/arnaldo-gualberto",
       github: "",
       website: "",
       slide: "",
@@ -169,7 +169,7 @@ const speakers = [
     title: "Seu modelo sabe enxergar? O problema escondido dos modelos multimodais na saúde",
     gde: false,
     showOnSite: true,
-    companyTitle: "AI Researcher @ FDNA",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -189,7 +189,7 @@ const speakers = [
     title: "Observabilidade na Prática: Monitorando Aplicações com o Google Cloud Operations Suite",
     gde: false,
     showOnSite: true,
-    companyTitle: "Senior Front-End Software Engineer no Itaú Unibanco",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -201,7 +201,7 @@ const speakers = [
   },
   {
     id: 11,
-    photo: "/speakers/aDefinir.png",
+    photo: "/speakers/2026/vitorVieira.png",
     name: "Vitor Vieira",
     tech: "Cloud, Dados e IA Aplicada",
     topic: "Cloud, Dados e IA Aplicada",
@@ -213,7 +213,7 @@ const speakers = [
     social_media: {
       instagram: "",
       twitter: "",
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/vieiravitor/",
       github: "",
       website: "",
       slide: "",
@@ -229,7 +229,7 @@ const speakers = [
     title: "Confiabilidade antes da execução: a alucinação começa na instrução",
     gde: false,
     showOnSite: true,
-    companyTitle: "Sócio-fundador e Líder Técnico na Perto Costa Tecnologias e Doutorando em IA/ML na University of the Cumberlands",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -249,7 +249,7 @@ const speakers = [
     title: "Se o agente pode agir, ele também pode errar: segurança em sistemas com IA",
     gde: false,
     showOnSite: true,
-    companyTitle: "Information Security Specialist",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -269,7 +269,7 @@ const speakers = [
     title: "Seu código não é o único alvo: protegendo aplicações através da identidade",
     gde: false,
     showOnSite: true,
-    companyTitle: "Analista de Segurança da Informação no Grupo Piracanjuba",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -289,7 +289,7 @@ const speakers = [
     title: "O Abismo entre IT e OT: Por que o seu \"Deploy\" Quebraria uma Usina",
     gde: false,
     showOnSite: true,
-    companyTitle: "Arquiteto de Cibersegurança (OT/ICS & DevSecOps) | Fundador da Polypus Labs - Analista de cybersegurança | Purple Team",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -309,7 +309,7 @@ const speakers = [
     title: "Do Caos ao Churrasco Perfeito: Dominando CI/CD",
     gde: false,
     showOnSite: true,
-    companyTitle: "Technical Product Owner | Organizador na PorteraTech e Embaixador LINUXtips.local Goiânia",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -329,7 +329,7 @@ const speakers = [
     title: "Hackeando o transporte público: como encontrei uma falha no Metrô de São Paulo",
     gde: false,
     showOnSite: true,
-    companyTitle: "Engineering Manager no iFood",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -353,7 +353,7 @@ const speakers = [
     social_media: {
       instagram: "",
       twitter: "",
-      linkedIn: "",
+      linkedIn: "https://www.linkedin.com/in/ghabryelhenrique/",
       github: "",
       website: "",
       slide: "",
@@ -369,7 +369,7 @@ const speakers = [
     title: "Firebase de raiz: do SQL à modelagem documental",
     gde: false,
     showOnSite: true,
-    companyTitle: "Dev Full Stack & Cloud na eFreela",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -389,7 +389,7 @@ const speakers = [
     title: "O primeiro projeto não precisa ser perfeito: ele só precisa começar",
     gde: false,
     showOnSite: true,
-    companyTitle: "Desenvolvedor Full-Stack Sênior na Afiliaxpay",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -409,7 +409,7 @@ const speakers = [
     title: "Turbine seus testes de Android usando Journeys: Como identificar rapidamente falhas de apps na era da IA",
     gde: false,
     showOnSite: true,
-    companyTitle: "Desenvolvedor de Software Sênior na Datainfo",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -429,7 +429,7 @@ const speakers = [
     title: "Tecnologia na Agricultura - ISOBUS",
     gde: false,
     showOnSite: true,
-    companyTitle: "Analista de sistemas - Grupo Zucatelli",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -449,7 +449,7 @@ const speakers = [
     title: "Open source está morrendo? Como a IA está impactando o mundo open source",
     gde: false,
     showOnSite: true,
-    companyTitle: "MeteorJS Core Maintainer",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -469,7 +469,7 @@ const speakers = [
     title: "Erro 500 sem Alento, Código sem Sentimento: Sou Eu Assim Sem Você Subtítulo: As armadilhas da IA na criação de telas sem o olhar de UX Design",
     gde: false,
     showOnSite: true,
-    companyTitle: "Designer conversacional de IAs",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -489,7 +489,7 @@ const speakers = [
     title: "O novo Shift-Left: Integrando DevSecOps e programação agêntica no Google Antigravity",
     gde: false,
     showOnSite: true,
-    companyTitle: "Analista de Sistemas na TV Anhanguera | Pesquisador em Inteligência Artificial e Sistemas Inteligentes",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -509,7 +509,7 @@ const speakers = [
     title: "Performance sustentável: como trabalhar a favor do seu cérebro, e não contra ele",
     gde: false,
     showOnSite: true,
-    companyTitle: "Responsável por DHO na TOTVS Brasil Central e Mentora",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -529,7 +529,7 @@ const speakers = [
     title: "Bug no roteiro: ainda não decidi o que quero ser quando crescer (e já passei dos 30+)",
     gde: false,
     showOnSite: true,
-    companyTitle: "QA na Logiks",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -549,7 +549,7 @@ const speakers = [
     title: "A tela é só a ponta do iceberg - Como transformar processos complexos em experiências simples",
     gde: false,
     showOnSite: true,
-    companyTitle: "Product Owner e Mestranda em Comunicação na UFG",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -569,7 +569,7 @@ const speakers = [
     title: "Manual de Sobrevivência às Lideranças Tóxicas",
     gde: false,
     showOnSite: true,
-    companyTitle: "Coordenador de Tecnologia",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -589,7 +589,7 @@ const speakers = [
     title: "A definir",
     gde: false,
     showOnSite: true,
-    companyTitle: "Gestora de Comunidade Fundadora do Ócio Clube de Hobbies",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -609,7 +609,7 @@ const speakers = [
     title: "Você sabe explicar o que faz? Comunicação como competência estratégica para profissionais de TI",
     gde: false,
     showOnSite: true,
-    companyTitle: "Responsável pelo Senai Hub Goiás e Doutoranda em Comunicação UFG",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -621,7 +621,7 @@ const speakers = [
   },
   {
     id: 32,
-    photo: "/speakers/aDefinir.png",
+    photo: "/speakers/2026/lucasLemos.png",
     name: "Lucas Lemos",
     tech: "Carreira, Produto e UX/UI",
     topic: "Carreira, Produto e UX/UI",
@@ -629,11 +629,11 @@ const speakers = [
     title: "Conquistando o Mercado Global de Tecnologia",
     gde: false,
     showOnSite: true,
-    companyTitle: "Software Engineer",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
-      linkedIn: "",
+      linkedIn: "https://linkedin.com/in/lucashenriqueblemos",
       github: "",
       website: "",
       slide: "",
@@ -649,7 +649,7 @@ const speakers = [
     title: "Você Está Indo Rápido. Mas Ainda Entende Para Onde?",
     gde: false,
     showOnSite: true,
-    companyTitle: "Embaixador AWS",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -661,11 +661,11 @@ const speakers = [
   },
   {
     id: 34,
-    photo: "/speakers/aDefinir.png",
+    photo: "/speakers/2026/isabellaCastro.png",
     name: "Isabella de Sousa Castro",
     tech: "Carreira, Produto e UX/UI",
     topic: "Carreira, Produto e UX/UI",
-    mini_bio: "",
+    mini_bio: "Analista de Inovação com experiência em tecnologia, projetos, empreendedorismo e desenvolvimento de soluções. Atua na conexão entre negócios, tecnologia e ecossistemas de inovação, apoiando projetos desde a identificação de problemas até a validação e estruturação de soluções. Possui experiência com tecnologia, automação, produtos digitais e comunidades de inovação.",
     title: "E se a gente parasse de construir e começasse a validar?",
     gde: false,
     showOnSite: true,
@@ -709,7 +709,7 @@ const speakers = [
     title: "Criando Sistemas Multi Agente no Google Cloud",
     gde: true,
     showOnSite: true,
-    companyTitle: "Senior AI Security Engineer em Zendata",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -729,7 +729,7 @@ const speakers = [
     title: "Do idéia ao protótipo: criando interfaces web com Google Stitch em tempo recorde",
     gde: false,
     showOnSite: true,
-    companyTitle: "Consultor de Dados e IA na Polícia Federal | Cofundador do Grupo Noah",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -749,7 +749,7 @@ const speakers = [
     title: "IA no seu dispositivo: rodando modelos localmente com LiteRT",
     gde: false,
     showOnSite: true,
-    companyTitle: "Desenvolvedora Mobile e de Inteligência Artificial e Líder de Comunidade",
+    companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
@@ -761,19 +761,19 @@ const speakers = [
   },
   {
     id: 40,
-    photo: "/speakers/aDefinir.png",
+    photo: "/speakers/2026/mikaeri.png",
     name: "Mikaeri",
     tech: "",
     topic: "",
-    mini_bio: "",
-    title: "",
+    mini_bio: "Mikaeri Ohana é Developer Relations Engineer no Google Cloud, focada em impulsionar o ecossistema de desenvolvimento e a conexão com pessoas desenvolvedoras na América Latina. Com profunda experiência em engenharia de dados e IA, ela atua na linha de frente da estratégia de DevRel: unindo engenharia de produto, criação de arquiteturas de referência e conexão pela comunidade. Reconhecida por sua habilidade em traduzir pesquisa avançada em impacto real, detém os títulos de Linkedin Top Voice, GDE e Microsoft MVP. Além de sua forte atuação acadêmica pela Unicamp, lidera programas de educação e letramento técnico que formam a próxima geração de talentos, como o Explica Mi e a Escola Tesseract.",
+    title: "Do primeiro prompt ao deploy: como sobreviver à produção de agentes de IA",
     gde: false,
     showOnSite: true,
     companyTitle: "",
     social_media: {
       instagram: "",
       twitter: "",
-      linkedIn: "",
+      linkedIn: "https://br.linkedin.com/in/mikaeriohana",
       github: "",
       website: "",
       slide: "",
