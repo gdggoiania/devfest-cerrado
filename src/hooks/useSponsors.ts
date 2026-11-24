@@ -42,14 +42,14 @@ const sponsors = {
   silver: {
     name: "Prata",
     items: [
-      // {
-      //   name: "Cilia",
-      //   logo: "/patrocinio/cilia.png",
-      //   url: "https://cilia.com.br/",
-      // },
       {
         name: "FIAP",
         logo: "/patrocinio/fiap.png",
+        url: "",
+      },
+      {
+        name: "Escola do Futuro",
+        logo: "/patrocinio/escolaDoFuturo.png",
         url: "",
       },
     ],
@@ -59,7 +59,7 @@ const sponsors = {
     items: [
       {
         name: "Casa do Código",
-        logo: "/patrocinio/casaDoCodigo.jpg",
+        logo: "/patrocinio/casaDoCodigo.png",
         url: "https://www.casadocodigo.com.br/",
       },
       // {
@@ -105,49 +105,49 @@ const sponsors = {
     // ],
   },
   support: {
-    // name: "Parceiros",
-    // items: [
-    //   {
-    //     name: "BlackStars",
-    //     logo: "/patrocinio/blackStars.png",
-    //     url: "https://www.instagram.com/blackstars.br/",
-    //   },
-    //   {
-    //     name: "Banco do Brasil",
-    //     logo: "/patrocinio/bb.png",
-    //     url: "https://www.bb.com.br/",
-    //   },
-    //   {
-    //     name: "UFG",
-    //     logo: "/patrocinio/inf.png",
-    //     url: "https://inf.ufg.br/",
-    //   },
-    //   {
-    //     name: "GDG Santos",
-    //     logo: "/patrocinio/gdgSantos.png",
-    //     url: "https://www.instagram.com/gdg.santos/",
-    //   },
-    //   {
-    //     name: "Mulheres na TI",
-    //     logo: "/patrocinio/movimento.png",
-    //     url: "https://www.instagram.com/movimentomulheresnati/",
-    //   },
-    //   {
-    //     name: "CyBBer Mulheres",
-    //     logo: "/patrocinio/cybber.png",
-    //     url: "https://www.linkedin.com/in/cybbermulheres",
-    //   },
-    //   {
-    //     name: "WMDG",
-    //     logo: "/patrocinio/wmdg.png",
-    //     url: "https://www.wmdg.com.br/",
-    //   },
-    //   {
-    //     name: "Justice",
-    //     logo: "/patrocinio/justice.png",
-    //     url: "https://justiceftc.com.br/",
-    //   },
-    // ],
+    name: "Parceiros",
+    items: [
+      {
+        name: "Fonseca",
+        logo: "/patrocinio/fonseca.png",
+        url: "",
+      },
+      {
+        name: "BlackStars",
+        logo: "/patrocinio/blackStars.png",
+        url: "https://www.instagram.com/blackstars.br/",
+      },
+      {
+        name: "UFG",
+        logo: "/patrocinio/infUfg.png",
+        url: "https://inf.ufg.br/",
+      },
+      {
+        name: "Hub Goiás",
+        logo: "/patrocinio/hubGoias.png",
+        url: "https://hubgoias.org/",
+      },
+      {
+        name: "WMDG",
+        logo: "/patrocinio/wmdg.png",
+        url: "https://www.wmdg.com.br/",
+      },
+      {
+        name: "CyberBee",
+        logo: "/patrocinio/cyberBee.png",
+        url: "",
+      },
+      {
+        name: "Viajadoras",
+        logo: "/patrocinio/viajadoras.png",
+        url: "",
+      },
+      {
+        name: "RedBull",
+        logo: "/patrocinio/redBull.svg",
+        url: "",
+      },
+    ],
   },
 };
 
