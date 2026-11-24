@@ -4,7 +4,7 @@ const schedule = [
     end: "08:30",
     speeches: [
       {
-        room: "1",
+        room: "",
         topic: "Credenciamento + Café da manhã",
       },
     ],
@@ -14,7 +14,7 @@ const schedule = [
     end: "09:00",
     speeches: [
       {
-        room: "1",
+        room: "",
         topic: "Abertura DevFest Cerrado 2026",
       },
     ],
@@ -24,7 +24,7 @@ const schedule = [
     end: "09:50",
     speeches: [
       {
-        room: "6",
+        room: "",
         topic: "Keynote: Alexandre Uehara",
         speakers: [
           {
@@ -85,7 +85,7 @@ const schedule = [
         ],
       },
       {
-        room: "",
+        room: "5",
         topic: "Dupla",
         speaker_id: 0,
         speakers: [
@@ -104,7 +104,7 @@ const schedule = [
         ],
       },
       {
-        room: "",
+        room: "6",
         topic: "Maria Luize",
         speakers: [
           {
@@ -152,16 +152,9 @@ const schedule = [
       },
       {
         room: "3",
-        topic: "Dupla",
+        topic: "Igor França",
         speakers: [
           {
-            topic: "Michael Mendes e Marcos Vinicius (42)",
-            speaker_id: 15,
-            start: "11:00",
-            end: "11:30",
-          },
-          {
-            topic: "Igor França",
             speaker_id: 14,
             start: "11:30",
             end: "12:00",
@@ -187,7 +180,7 @@ const schedule = [
         ],
       },
       {
-        room: "",
+        room: "5",
         topic: "Dupla",
         speaker_id: 0,
         speakers: [
@@ -206,7 +199,7 @@ const schedule = [
         ],
       },
       {
-        room: "",
+        room: "6",
         topic: "Fabio Xavier",
         speakers: [
           {
@@ -277,7 +270,7 @@ const schedule = [
         ],
       },
       {
-        room: "",
+        room: "5",
         topic: "João Pedro",
         speakers: [
           {
@@ -288,7 +281,7 @@ const schedule = [
         ],
       },
       {
-        room: "",
+        room: "6",
         topic: "Geovana Correia",
         speakers: [
           {
@@ -349,7 +342,7 @@ const schedule = [
         ],
       },
       {
-        room: "",
+        room: "5",
         topic: "Vanessa Sousa",
         speakers: [
           {
@@ -360,11 +353,7 @@ const schedule = [
         ],
       },
       {
-        room: "",
-        topic: "Isadora Mesquita",
-      },
-      {
-        room: "",
+        room: "6",
         topic: "Rubens Zimbres",
         speakers: [
           {
@@ -404,10 +393,17 @@ const schedule = [
       },
       {
         room: "4",
-        topic: "Escola do Futuro",
+        topic: "Isabella Castro",
+        speakers: [
+          {
+            speaker_id: 34,
+            start: "15:00",
+            end: "15:30",
+          },
+        ],
       },
       {
-        room: "",
+        room: "5",
         topic: "Ana Luiza Reis",
         speakers: [
           {
@@ -445,18 +441,18 @@ const schedule = [
         ],
       },
       {
-        room: "4",
-        topic: "Isabella Castro",
+        room: "2",
+        topic: "Thalles Bruno",
         speakers: [
           {
-            speaker_id: 34,
+            speaker_id: 46,
             start: "16:00",
             end: "16:30",
           },
         ],
       },
       {
-        room: "",
+        room: "5",
         topic: "Lucas Lemos",
         speakers: [
           {
@@ -467,7 +463,7 @@ const schedule = [
         ],
       },
       {
-        room: "",
+        room: "6",
         topic: "Yasmin",
         speakers: [
           {
@@ -512,7 +508,7 @@ const schedule = [
     end: "18:00",
     speeches: [
       {
-        room: "6",
+        room: "",
         topic: "Keynote - Mikaeri Ohana",
         speakers: [
           {
@@ -529,7 +525,7 @@ const schedule = [
     end: "18:30",
     speeches: [
       {
-        room: "1",
+        room: "",
         topic: "Encerramento",
       },
     ],

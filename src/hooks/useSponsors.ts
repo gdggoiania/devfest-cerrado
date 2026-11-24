@@ -55,34 +55,34 @@ const sponsors = {
     ],
   },
   bronze: {
-    // name: "Bronze",
-    // items: [
-    //   {
-    //     name: "Aliare",
-    //     logo: "/patrocinio/aliare.png",
-    //     url: "https://www.aliare.co/",
-    //   },
-    //   {
-    //     name: "Sesi/Senai",
-    //     logo: "/patrocinio/sesi.png",
-    //     url: "https://senaigoias.com.br/",
-    //   },
-    //   {
-    //     name: "Forlex",
-    //     logo: "/patrocinio/forlex.png",
-    //     url: "https://www.forlex.ai/",
-    //   },
-    //   {
-    //     name: "Github",
-    //     logo: "/patrocinio/git.png",
-    //     url: "https://githubcampus.expert/",
-    //   },
-    //   {
-    //     name: "International",
-    //     logo: "/patrocinio/inter.png",
-    //     url: "https://www.linkedin.com/company/international-escola-de-idiomas/?originalSubdomain=br",
-    //   },
-    // ],
+    name: "Bronze",
+    items: [
+      {
+        name: "Casa do Código",
+        logo: "/patrocinio/casaDoCodigo.jpg",
+        url: "https://www.casadocodigo.com.br/",
+      },
+      // {
+      //   name: "Sesi/Senai",
+      //   logo: "/patrocinio/sesi.png",
+      //   url: "https://senaigoias.com.br/",
+      // },
+      // {
+      //   name: "Forlex",
+      //   logo: "/patrocinio/forlex.png",
+      //   url: "https://www.forlex.ai/",
+      // },
+      // {
+      //   name: "Github",
+      //   logo: "/patrocinio/git.png",
+      //   url: "https://githubcampus.expert/",
+      // },
+      // {
+      //   name: "International",
+      //   logo: "/patrocinio/inter.png",
+      //   url: "https://www.linkedin.com/company/international-escola-de-idiomas/?originalSubdomain=br",
+      // },
+    ],
   },
   // ruby: {
   //   name: "Comunidades parceiras",

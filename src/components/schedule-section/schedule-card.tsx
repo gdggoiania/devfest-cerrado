@@ -37,37 +37,37 @@ const renderPath = (path?: string) => {
   switch (path) {
     case "1":
       return pathHtml(
-        "Trilha: 1",
+        "Trilha: IA Generativa e Agentes",
         `/${path}.png`,
         styles.path_1_color
       );
     case "2":
       return pathHtml(
-        "Trilha: 2",
+        "Trilha: Cloud, Dados e IA Aplicada",
         `/${path}.png`,
         styles.path_2_color
       );
     case "3":
       return pathHtml(
-        "Trilha: 3",
+        "Trilha: Segurança e DevOps",
         `/${path}.png`,
         styles.path_3_color
       );
     case "4":
       return pathHtml(
-        "Trilha: 4",
+        "Trilha: Engenharia de Software, Produto e Agtech",
         `/${path}.png`,
         styles.path_4_color
       );
     case "5":
       return pathHtml(
-        "",
+        "Trilha: UX/UI e Carreira",
         `/${path}.png`,
         styles.path_5_color
       );
     case "6":
       return pathHtml(
-        "Keynote",
+        "Workshops",
         `/${path}.png`,
         styles.path_5_color
       );
