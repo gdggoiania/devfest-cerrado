@@ -429,17 +429,17 @@ const schedule = [
     start: "16:00",
     end: "16:30",
     speeches: [
-      {
-        room: "1",
-        topic: "Italo José",
-        speakers: [
-          {
-            speaker_id: 23,
-            start: "16:00",
-            end: "16:30",
-          },
-        ],
-      },
+      // {
+      //   room: "1",
+      //   topic: "Italo José",
+      //   speakers: [
+      //     {
+      //       speaker_id: 23,
+      //       start: "16:00",
+      //       end: "16:30",
+      //     },
+      //   ],
+      // },
       {
         room: "2",
         topic: "Thalles Bruno",
