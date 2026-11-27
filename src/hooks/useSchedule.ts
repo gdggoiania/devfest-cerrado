@@ -343,12 +343,20 @@ const schedule = [
       },
       {
         room: "5",
-        topic: "Vanessa Sousa",
+        topic: "Dupla",
+        speaker_id: 0,
         speakers: [
           {
+            topic: "Vanessa Sousa",
             speaker_id: 24,
             start: "14:00",
             end: "14:30",
+          },
+          {
+            topic: "Isadora Mesquita",
+            speaker_id: 47,
+            start: "14:30",
+            end: "15:00",
           },
         ],
       },

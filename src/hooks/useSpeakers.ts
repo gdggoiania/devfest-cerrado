@@ -822,8 +822,8 @@ const speakers = [
   {
     id: 47,
     photo: "/speakers/2026/isadoraStefany.png",
-    name: "Isadora Stefany",
-    tech: "Cloud, Dados e IA Aplicada",
+    name: "Isadora Mesquita",
+    tech: "UX/UI e  Carreira",
     topic: "A partir da minha trajetória — desde a graduação em Inteligência Artificial na UFG e a pesquisa no CEIA até as experiências no mercado, o empreendedorismo e a conquista da minha vaga no iFood —, vou discutir o papel da autorresponsabilidade na construção de carreira em tecnologia. Como podemos de forma prática assumir o protagonismo das próprias escolhas, lidar com gatilhos como a síndrome do impostor e transformar desafios de representatividade e vivências de mulheres na área em alavancas reais de crescimento.",
     mini_bio: "Cientista de Dados no iFood, bacharel em Inteligência Artificial pela UFG e pesquisadora egressa do CEIA-UFG. Atua na construção de soluções de IA em produção e fala sobre carreira, protagonismo e mulheres na tecnologia.",
     title: "Ninguém Vai Gerenciar Sua Carreira Por Você: Autorresponsabilidade na Prática",
