@@ -839,6 +839,26 @@ const speakers = [
       slide: "",
     },
   },
+   {
+    id: 48,
+    photo: "/speakers/2026/matheusHonorato.png",
+    name: "Matheus Honorato + Eduardo Marques + Calebe Gabriel",
+    tech: "Engenharia de Software, Produto e Agtech",
+    topic: "",
+    mini_bio: "Me chamo matheus tenho 16 anos faço parte da robotica a 4 anos e sou programador da equipe. Me chamo eduardo tenho 15 anos faço parte da robotica a 4 anos e sou cadista da equipe. Me chamo calebe tenho 15 anos faço parte da robotica a 3 anos e sou cadista da equipe",
+    title: "Como usamos a programação da industria na robotica eduacional",
+    gde: false,
+    showOnSite: true,
+    companyTitle: "",
+    social_media: {
+      instagram: "",
+      twitter: "",
+      linkedIn: "",
+      github: "",
+      website: "",
+      slide: "",
+    },
+  },
 ];
 
 export default speakers;

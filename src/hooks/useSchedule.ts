@@ -1,6 +1,6 @@
 const schedule = [
   {
-    start: "07:00",
+    start: "07:20",
     end: "08:30",
     speeches: [
       {
@@ -454,6 +454,17 @@ const schedule = [
         speakers: [
           {
             speaker_id: 46,
+            start: "16:00",
+            end: "16:30",
+          },
+        ],
+      },
+      {
+        room: "4",
+        topic: "Matheus Honorato + Eduardo Marques + Calebe Gabriel",
+        speakers: [
+          {
+            speaker_id: 48,
             start: "16:00",
             end: "16:30",
           },
