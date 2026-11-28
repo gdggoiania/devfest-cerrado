@@ -319,17 +319,17 @@ const schedule = [
           },
         ],
       },
-      {
-        room: "3",
-        topic: "Alyce Suza",
-        speakers: [
-          {
-            speaker_id: 13,
-            start: "14:00",
-            end: "15:00",
-          },
-        ],
-      },
+      // {
+      //   room: "3",
+      //   topic: "Alyce Suza",
+      //   speakers: [
+      //     {
+      //       speaker_id: 13,
+      //       start: "14:00",
+      //       end: "15:00",
+      //     },
+      //   ],
+      // },
       {
         room: "4",
         topic: "Marco Coelho",
